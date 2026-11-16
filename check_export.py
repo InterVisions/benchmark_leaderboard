@@ -1,0 +1,93 @@
+"""Leak check of the published data: fails unless data/ holds only aggregate numbers.
+
+    python check_export.py [DIR]      (default: this repository)
+
+Checks, for every file in DIR/data and DIR/evaluation:
+* only the expected files, and in each CSV only the expected columns;
+* no URL, e-mail address, image file name or annotation-tool image id in any text;
+* no annotator labels;
+* every published group has n >= min_n (meta.json);
+* no table has a row per image: every CSV row is keyed by model/prompt/group, k or curve point.
+The app runs this check at startup and refuses to serve data that fails it.
+"""
+import csv
+import json
+import re
+import sys
+from pathlib import Path
+
+SCHEMA = {
+    "groups.csv": ["model", "prompt", "grouping", "group", "n", "evidence", "direction",
+                   "other models", "AUC median", "AUC CI low", "AUC CI high", "AUC Δ median",
+                   "AUC p", "AUC mean", "rank median", "rank CI low", "rank CI high",
+                   "rank Δ median", "rank p", "rank p Holm", "rank mean", "R@1", "R@5", "R@10"],
+    "spread.csv": ["model", "prompt", "grouping", "assessed groups", "spread", "null mean", "p"],
+    "utility.csv": ["model", "prompt", "images", "COCO median rank", "COCO R@1", "COCO R@5",
+                    "COCO R@10", "AUC median"],
+    "rf_metrics.csv": ["model", "prompt", "k", "attribute", "metric", "observed",
+                       "random-order expectation", "observed − expected", "p (one-sided)",
+                       "per-draw 2.5%", "per-draw 97.5%", "null 95% range low",
+                       "null 95% range high"],
+    "rf_shares.csv": ["model", "prompt", "k", "attribute", "group", "balanced share",
+                      "share − balanced", "p (two-sided)", "share"],
+    "rf_curves.csv": ["model", "prompt", "attribute", "series", "k", "observed", "null mean",
+                      "null low", "null high"],
+    "rf_cells.csv": ["prompt", "design", "cell", "n"],
+    "paired.csv": ["model A", "model B", "prompt", "k", "attribute", "metric", "A − B", "p"],
+}
+EVAL_CODE = {"dataset.py", "metrics.py", "ranking_fairness.py"}
+FORBIDDEN = [
+    (re.compile(r"https?://|www\.", re.I), "URL"),
+    (re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+"), "e-mail address"),
+    (re.compile(r"\.(jpe?g|png|gif|webp|bmp|tiff?)\b", re.I), "image file name"),
+    (re.compile(r"\b(task|ann)\d+_\d{6,}"), "annotation-tool image id"),
+    (re.compile(r"annotator \d+", re.I), "annotator label"),
+]
+# Text that legitimately matches a pattern in the published evaluation code (docstrings, paths).
+CODE_ALLOW = re.compile(r"https?://images\.cocodataset\.org/\S*|\.npz|\.csv")
+
+
+def fail(msg):
+    sys.exit(f"check_export: {msg}")
+
+
+def scan(text, where, allow=None):
+    for line in text.splitlines():
+        probe = allow.sub("", line) if allow else line
+        for pattern, what in FORBIDDEN:
+            if pattern.search(probe):
+                fail(f"{what} in {where}: {line.strip()[:120]}")
+
+
+def main(root):
+    data, code = root / "data", root / "evaluation"
+    files = {p.name for p in data.iterdir()}
+    if files != set(SCHEMA) | {"meta.json"}:
+        fail(f"unexpected files in data/: {sorted(files ^ (set(SCHEMA) | {'meta.json'}))}")
+    meta = json.loads((data / "meta.json").read_text())
+    scan(json.dumps(meta, ensure_ascii=False), "meta.json")
+    min_n = int(meta["min_n"])
+    for name, cols in SCHEMA.items():
+        with open(data / name, newline="") as f:
+            reader = csv.reader(f)
+            header = next(reader)
+            if header != cols:
+                fail(f"{name}: columns {header} differ from the schema")
+            for row in reader:
+                if len(row) != len(cols):
+                    fail(f"{name}: malformed row {row[:4]}")
+                scan(" | ".join(row), name)
+                if name == "groups.csv" and int(row[cols.index("n")]) < min_n:
+                    fail(f"groups.csv: a group with n < {min_n} ({row[:4]})")
+    if code.exists():
+        names = {p.name for p in code.iterdir() if p.is_file()}
+        if not names <= EVAL_CODE:
+            fail(f"unexpected files in evaluation/: {sorted(names - EVAL_CODE)}")
+        for p in code.iterdir():
+            if p.is_file():
+                scan(p.read_text(), f"evaluation/{p.name}", CODE_ALLOW)
+    print(f"check_export: {root} OK ({len(SCHEMA)} tables, groups with n >= {min_n})")
+
+
+if __name__ == "__main__":
+    main(Path(sys.argv[1] if len(sys.argv) > 1 else Path(__file__).resolve().parent))

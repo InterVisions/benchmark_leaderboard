@@ -1,0 +1,263 @@
+{
+ "release": "2026-11-16",
+ "images": 1203,
+ "min_n": 10,
+ "ks": [
+  4,
+  8,
+  12,
+  16,
+  20,
+  24,
+  28,
+  32,
+  36,
+  40
+ ],
+ "models": [
+  {
+   "key": "ViT-B-32 / openai",
+   "arch": "ViT-B-32",
+   "pretrained": "openai"
+  },
+  {
+   "key": "ViT-B-16 / openai",
+   "arch": "ViT-B-16",
+   "pretrained": "openai"
+  },
+  {
+   "key": "ViT-L-14 / openai",
+   "arch": "ViT-L-14",
+   "pretrained": "openai"
+  },
+  {
+   "key": "ViT-L-14 / laion2b_s32b_b82k",
+   "arch": "ViT-L-14",
+   "pretrained": "laion2b_s32b_b82k"
+  },
+  {
+   "key": "SigLIP ViT-B-16 / webli",
+   "arch": "ViT-B-16-SigLIP",
+   "pretrained": "webli"
+  },
+  {
+   "key": "SigLIP 2 ViT-B-16 / webli",
+   "arch": "ViT-B-16-SigLIP2",
+   "pretrained": "webli"
+  },
+  {
+   "key": "DebiasCLIP ViT-B-16 gender / oxai",
+   "arch": "ViT-B-16-DebiasCLIP-gender",
+   "pretrained": "oxai"
+  }
+ ],
+ "prompts": [
+  {
+   "prompt": "a couple kissing",
+   "design": "couple",
+   "images": 120,
+   "ranking_fairness": true
+  },
+  {
+   "prompt": "A couple walking hand in hand in the public space",
+   "design": "couple",
+   "images": 85,
+   "ranking_fairness": true
+  },
+  {
+   "prompt": "A grandparent and a grandchild in the park",
+   "design": "single",
+   "images": 60,
+   "ranking_fairness": false
+  },
+  {
+   "prompt": "A kid playing in a public park",
+   "design": "single",
+   "images": 75,
+   "ranking_fairness": false
+  },
+  {
+   "prompt": "A person doing sport in the park",
+   "design": "single",
+   "images": 102,
+   "ranking_fairness": false
+  },
+  {
+   "prompt": "A person in the new city park",
+   "design": "single",
+   "images": 103,
+   "ranking_fairness": false
+  },
+  {
+   "prompt": "A person pushing a person in a wheelchair",
+   "design": "single",
+   "images": 109,
+   "ranking_fairness": true
+  },
+  {
+   "prompt": "A person taking care of a child in a park",
+   "design": "single",
+   "images": 119,
+   "ranking_fairness": true
+  },
+  {
+   "prompt": "A person taking care of an elderly person in the park",
+   "design": "single",
+   "images": 89,
+   "ranking_fairness": true
+  },
+  {
+   "prompt": "A wheelchair user enjoying the park",
+   "design": "single",
+   "images": 102,
+   "ranking_fairness": false
+  },
+  {
+   "prompt": "An old person exercising in the public outdoors gym",
+   "design": "single",
+   "images": 92,
+   "ranking_fairness": true
+  },
+  {
+   "prompt": "An older child looking after a younger child in the park",
+   "design": "single",
+   "images": 70,
+   "ranking_fairness": false
+  },
+  {
+   "prompt": "An older couple taking care of each other",
+   "design": "single",
+   "images": 17,
+   "ranking_fairness": false
+  },
+  {
+   "prompt": "Two friends talking on a park bench",
+   "design": "single",
+   "images": 60,
+   "ranking_fairness": false
+  }
+ ],
+ "groupings": [
+  "Gender",
+  "Skin tone (6 levels)",
+  "Skin tone (3 bins)",
+  "Age",
+  "Gender × skin tone (3 bins)",
+  "Gender × age",
+  "Skin tone (3 bins) × age",
+  "Gender × skin tone (3 bins) × age",
+  "Couples: gender composition",
+  "Couples: skin tone composition (3 bins)",
+  "Couples: gender × skin composition (2×2)",
+  "Number of people"
+ ],
+ "default_groupings": [
+  "Gender",
+  "Skin tone (3 bins)",
+  "Age",
+  "Gender × skin tone (3 bins)",
+  "Couples: gender composition",
+  "Couples: skin tone composition (3 bins)"
+ ],
+ "leaderboard": {
+  "Gender × skin tone (single-person prompts)": {
+   "design": "single",
+   "attribute": "ab",
+   "grouping": "Gender × skin tone (3 bins)"
+  },
+  "Gender (single-person prompts)": {
+   "design": "single",
+   "attribute": "a",
+   "grouping": "Gender"
+  },
+  "Skin tone (single-person prompts)": {
+   "design": "single",
+   "attribute": "b",
+   "grouping": "Skin tone (3 bins)"
+  },
+  "Age (single-person prompts)": {
+   "design": "single",
+   "attribute": null,
+   "grouping": "Age"
+  },
+  "Couples: gender × skin tone composition": {
+   "design": "couple",
+   "attribute": "ab",
+   "grouping": "Couples: gender × skin composition (2×2)"
+  },
+  "Couples: gender composition": {
+   "design": "couple",
+   "attribute": "a",
+   "grouping": "Couples: gender composition"
+  },
+  "Couples: skin tone composition": {
+   "design": "couple",
+   "attribute": "b",
+   "grouping": "Couples: skin tone composition (3 bins)"
+  }
+ },
+ "rf_designs": {
+  "single": {
+   "names": {
+    "a": "Gender",
+    "b": "Skin tone (FST 1 vs 2-6)",
+    "ab": "Gender × skin tone (2×2)"
+   },
+   "groups": {
+    "a": [
+     "more maleness",
+     "more femaleness"
+    ],
+    "b": [
+     "FST 1",
+     "FST 2-6"
+    ],
+    "ab": [
+     "more maleness × FST 1",
+     "more maleness × FST 2-6",
+     "more femaleness × FST 1",
+     "more femaleness × FST 2-6"
+    ]
+   }
+  },
+  "couple": {
+   "names": {
+    "a": "Gender composition",
+    "b": "Skin tone composition",
+    "ab": "Gender × skin composition (2×2)"
+   },
+   "groups": {
+    "a": [
+     "different gender",
+     "same gender"
+    ],
+    "b": [
+     "both FST 1-2",
+     "other"
+    ],
+    "ab": [
+     "different gender × both FST 1-2",
+     "different gender × other",
+     "same gender × both FST 1-2",
+     "same gender × other"
+    ]
+   }
+  }
+ },
+ "rf_metrics": {
+  "NDKL": true,
+  "MaxSkew": true,
+  "Normalized entropy": false
+ },
+ "rf_constants": {
+  "min_cell": 10,
+  "per_cell": 10,
+  "n_draws": 1000,
+  "n_perm": 1000,
+  "n_perm_paired": 500
+ },
+ "dip_constants": {
+  "n_perm": 5000,
+  "coco_images": 5000
+ }
+}
