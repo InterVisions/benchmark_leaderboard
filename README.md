@@ -35,8 +35,22 @@ fails it.
 app.py              Gradio app (reads data/)
 data/               exported tables (CSV) and meta.json
 evaluation/         evaluation code: groupings, metrics, evidence rules, ranking fairness design
-check_export.py     leak check of data/ and evaluation/
+check_export.py     leak check of data/ and evaluation/, and of the published hash
 ```
+
+## Integrity
+
+The annotation file is private, but its SHA-256 is published with every release (also in
+`data/meta.json`), so anyone given access to the data later can verify that it is the file these
+numbers were computed from.
+
+<!-- annotations-sha256 -->
+Release 2026-11-16: SHA-256 of the private annotation file (`annotations.csv`, 1,203 images) the published numbers were computed from:
+
+```
+ece447fab4a42bc9113c64db01330a1a18eb76fce840c5f6895fb892a48e66aa
+```
+<!-- /annotations-sha256 -->
 
 ## Run locally
 

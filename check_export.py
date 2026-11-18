@@ -3,11 +3,14 @@
     python check_export.py [DIR]      (default: this repository)
 
 Checks, for every file in DIR/data and DIR/evaluation:
-* only the expected files, and in each CSV only the expected columns;
+* only the expected files, in each CSV only the expected columns, and in meta.json only the
+  expected keys;
 * no URL, e-mail address, image file name or annotation-tool image id in any text;
 * no annotator labels;
 * every published group has n >= min_n (meta.json);
-* no table has a row per image: every CSV row is keyed by model/prompt/group, k or curve point.
+* no table has a row per image: every CSV row is keyed by model/prompt/group, k or curve point;
+* meta.json's annotations_sha256 (the SHA-256 of the private annotation file) is a SHA-256 hex
+  digest, and README.md, when present, states the same digest in its integrity block.
 The app runs this check at startup and refuses to serve data that fails it.
 """
 import csv
@@ -35,6 +38,11 @@ SCHEMA = {
     "rf_cells.csv": ["prompt", "design", "cell", "n"],
     "paired.csv": ["model A", "model B", "prompt", "k", "attribute", "metric", "A − B", "p"],
 }
+META_KEYS = {"release", "annotations_sha256", "images", "min_n", "ks", "models", "prompts",
+             "groupings", "default_groupings", "leaderboard", "rf_designs", "rf_metrics",
+             "rf_constants", "dip_constants"}
+SHA256 = re.compile(r"[0-9a-f]{64}")
+README_BLOCK = re.compile(r"<!-- annotations-sha256 -->\n(.*?)\n<!-- /annotations-sha256 -->", re.S)
 EVAL_CODE = {"dataset.py", "metrics.py", "ranking_fairness.py"}
 FORBIDDEN = [
     (re.compile(r"https?://|www\.", re.I), "URL"),
@@ -65,7 +73,17 @@ def main(root):
     if files != set(SCHEMA) | {"meta.json"}:
         fail(f"unexpected files in data/: {sorted(files ^ (set(SCHEMA) | {'meta.json'}))}")
     meta = json.loads((data / "meta.json").read_text())
+    if set(meta) != META_KEYS:
+        fail(f"meta.json: keys {sorted(set(meta) ^ META_KEYS)} differ from the allow-list")
+    digest = meta["annotations_sha256"]
+    if not (isinstance(digest, str) and SHA256.fullmatch(digest)):
+        fail("meta.json: annotations_sha256 is not a SHA-256 hex digest")
     scan(json.dumps(meta, ensure_ascii=False), "meta.json")
+    readme = root / "README.md"
+    if readme.is_file():
+        block = README_BLOCK.search(readme.read_text())
+        if not block or SHA256.findall(block.group(1)) != [digest]:
+            fail("README.md: the integrity block does not state meta.json's annotations_sha256")
     min_n = int(meta["min_n"])
     for name, cols in SCHEMA.items():
         with open(data / name, newline="") as f:
@@ -86,7 +104,8 @@ def main(root):
         for p in code.iterdir():
             if p.is_file():
                 scan(p.read_text(), f"evaluation/{p.name}", CODE_ALLOW)
-    print(f"check_export: {root} OK ({len(SCHEMA)} tables, groups with n >= {min_n})")
+    print(f"check_export: {root} OK ({len(SCHEMA)} tables, groups with n >= {min_n}, "
+          f"annotations sha256 {digest})")
 
 
 if __name__ == "__main__":

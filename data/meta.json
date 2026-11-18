@@ -1,5 +1,6 @@
 {
  "release": "2026-11-16",
+ "annotations_sha256": "ece447fab4a42bc9113c64db01330a1a18eb76fce840c5f6895fb892a48e66aa",
  "images": 1203,
  "min_n": 10,
  "ks": [
