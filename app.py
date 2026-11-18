@@ -7,12 +7,15 @@ their annotations and the embeddings are not public, and nothing here is per ima
 Run:  python app.py [--host 0.0.0.0] [--port 7860]
 """
 import argparse
+import base64
 import json
+import os
 import sys
 from functools import lru_cache
 from pathlib import Path
 
-import gradio as gr
+os.environ.setdefault("GRADIO_ANALYTICS_ENABLED", "False")  # no usage telemetry to Gradio
+import gradio as gr  # noqa: E402
 import matplotlib
 
 matplotlib.use("Agg")
@@ -505,8 +508,32 @@ discussion in this Space (or an issue in its repository) with:
   not an `open_clip` model;
 * a link to the paper or model card.
 
-The maintainers compute the model's embeddings and results privately and add its aggregate numbers
-to this leaderboard. Only models with public weights are accepted."""
+Only models with public weights are accepted, in **safetensors** format or as a PyTorch state dict
+that loads with `torch.load(weights_only=True)`. Pickled models and TorchScript archives are
+refused, because loading them can run arbitrary code. The maintainers compute the model's
+embeddings and results privately and add its aggregate numbers to this leaderboard.
+
+### More
+
+* The dataset in aggregate (prompts, counts, the perceived attributes and their limits):
+  `docs/datasheet.md`; the annotation codes: `evaluation/codebook.md`.
+* The dataset was collected and annotated with the InterVisions annotation tool:
+  [github.com/InterVisions/intervisions_annotation](https://github.com/InterVisions/intervisions_annotation).
+* License: code MIT; data (the published tables, datasheet and codebook) CC BY 4.0.
+* Integrity: SHA-256 of the private annotation file of this release:
+  `""" + META["annotations_sha256"] + """`."""
+
+_EMBLEM = base64.b64encode((ROOT / "eu-funded.png").read_bytes()).decode()
+FUNDING = (
+    '<div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;font-size:0.85em;'
+    'margin-top:12px">'
+    f'<img src="data:image/png;base64,{_EMBLEM}" alt="Co-funded by the European Union" '
+    'style="height:48px;width:auto;background:#fff;padding:4px">'
+    '<span style="flex:1;min-width:240px">This work is part of the InterVisions project '
+    '(101214711 — CERV-2024-CHAR-LITI). Funded by the European Union. Views and opinions '
+    'expressed are however those of the author(s) only and do not necessarily reflect those of '
+    'the European Union or the European Education and Culture Executive Agency (EACEA). Neither '
+    'the European Union nor EACEA can be held responsible for them.</span></div>')
 
 HEADER_HELP = [
     (r"^prompt$", "Prompt (text query) the images were collected for."),
@@ -702,6 +729,7 @@ def build_ui():
 
         with gr.Tab("About and submissions"):
             gr.Markdown(ABOUT)
+        gr.HTML(FUNDING)
     return demo
 
 

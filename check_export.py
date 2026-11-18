@@ -2,9 +2,13 @@
 
     python check_export.py [DIR]      (default: this repository)
 
-Checks, for every file in DIR/data and DIR/evaluation:
-* only the expected files, in each CSV only the expected columns, and in meta.json only the
-  expected keys;
+Checks:
+* the repository holds only the files of REPO_FILES, data/ and evaluation/ (all files, not just
+  the tracked ones; caches such as __pycache__ are skipped);
+* only the expected files in data/ and evaluation/, in each CSV only the expected columns, and in
+  meta.json only the expected keys;
+* the texts (README.md, LICENSE, docs/, evaluation/) have no URL except those of TEXT_ALLOW, and
+  none of the patterns below;
 * no URL, e-mail address, image file name or annotation-tool image id in any text;
 * no annotator labels;
 * every published group has n >= min_n (meta.json);
@@ -43,7 +47,16 @@ META_KEYS = {"release", "annotations_sha256", "images", "min_n", "ks", "models",
              "rf_constants", "dip_constants"}
 SHA256 = re.compile(r"[0-9a-f]{64}")
 README_BLOCK = re.compile(r"<!-- annotations-sha256 -->\n(.*?)\n<!-- /annotations-sha256 -->", re.S)
-EVAL_CODE = {"dataset.py", "metrics.py", "ranking_fairness.py"}
+EVAL_CODE = {"dataset.py", "metrics.py", "ranking_fairness.py", "codebook.md"}
+# Every other file the repository may hold (paths relative to its root).
+REPO_FILES = {"README.md", "LICENSE", "app.py", "check_export.py", "requirements.txt",
+              ".gitignore", "eu-funded.png", "docs/datasheet.md"}
+SKIP_DIRS = {".git", "__pycache__", ".gradio", ".venv", "flagged"}
+TEXTS = ["README.md", "LICENSE", "docs/datasheet.md"]
+# Links the texts may contain, and the emblem's file name.
+TEXT_ALLOW = re.compile(r"https?://(github\.com/InterVisions/|huggingface\.co/|"
+                        r"creativecommons\.org/|opensource\.org/|commission\.europa\.eu/|127\.0\.0\.1:)\S*|"
+                        r"eu-funded\.png")
 FORBIDDEN = [
     (re.compile(r"https?://|www\.", re.I), "URL"),
     (re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+"), "e-mail address"),
@@ -67,8 +80,27 @@ def scan(text, where, allow=None):
                 fail(f"{what} in {where}: {line.strip()[:120]}")
 
 
+def repo_files(root):
+    out = set()
+    for p in root.rglob("*"):
+        rel = p.relative_to(root)
+        if p.is_file() and not SKIP_DIRS & set(rel.parts):
+            out.add(rel.as_posix())
+    return out
+
+
 def main(root):
     data, code = root / "data", root / "evaluation"
+    extra = {f for f in repo_files(root) if f.split("/")[0] not in ("data", "evaluation")}
+    if extra - REPO_FILES:
+        fail(f"unexpected files: {sorted(extra - REPO_FILES)} (add them to REPO_FILES if public)")
+    for name in TEXTS:
+        if (root / name).is_file():
+            scan((root / name).read_text(), name, TEXT_ALLOW)
+    emblem = root / "eu-funded.png"
+    if emblem.is_file() and (emblem.read_bytes()[:8] != b"\x89PNG\r\n\x1a\n"
+                             or emblem.stat().st_size > 100_000):
+        fail("eu-funded.png is not the small PNG emblem")
     files = {p.name for p in data.iterdir()}
     if files != set(SCHEMA) | {"meta.json"}:
         fail(f"unexpected files in data/: {sorted(files ^ (set(SCHEMA) | {'meta.json'}))}")
@@ -103,7 +135,8 @@ def main(root):
             fail(f"unexpected files in evaluation/: {sorted(names - EVAL_CODE)}")
         for p in code.iterdir():
             if p.is_file():
-                scan(p.read_text(), f"evaluation/{p.name}", CODE_ALLOW)
+                allow = TEXT_ALLOW if p.suffix == ".md" else CODE_ALLOW
+                scan(p.read_text(), f"evaluation/{p.name}", allow)
     print(f"check_export: {root} OK ({len(SCHEMA)} tables, groups with n >= {min_n}, "
           f"annotations sha256 {digest})")
 

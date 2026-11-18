@@ -13,6 +13,8 @@ short_description: Fairness of text-to-image retrieval models
 
 # InterVisions leaderboard
 
+## What the benchmark measures
+
 How text-to-image retrieval models (CLIP and related vision–language models) treat people of
 different perceived gender, age and skin tone. Each model retrieves images for natural-language
 prompts about people in public spaces, and two analyses compare the groups of people depicted:
@@ -22,23 +24,37 @@ prompts about people in public spaces, and two analyses compare the groups of pe
 - **Ranking fairness**: NDKL, MaxSkew and normalized entropy of the top-k on balanced 2×2 pools
   (perceived gender × skin tone, or the composition of couples), against a permutation null.
 
+The dataset, its prompts and the limits of its perceived attributes are described in
+[`docs/datasheet.md`](docs/datasheet.md); the codes are in
+[`evaluation/codebook.md`](evaluation/codebook.md).
+
+## What is not released, and why
+
+The images, their URLs, the per-image annotations, the annotators' notes and the embeddings are
+not released. The images show identifiable people, including minors, and the annotations record
+perceived characteristics such as skin tone, so publishing them would expose personal data of
+people who were never asked; the images also belong to their authors. This repository therefore
+publishes only aggregate numbers over groups of at least 10 images, with the evaluation code and
+the hash of the annotation file.
+
 ## What is published
 
 Only aggregate numbers, exported from the private benchmark: per model, prompt and group, the
-summaries of the two analyses. The images, their URLs, the annotations and the embeddings are not
-public, and no number refers to a single image. Groups with fewer than 10 images are neither shown
-nor assessed. `check_export.py` verifies this (expected files and columns only; no URLs, image file
-names, annotator labels or small groups); the app runs it at startup and refuses to serve data that
-fails it.
+summaries of the two analyses. No number refers to a single image. Groups with fewer than 10
+images are neither shown nor assessed. `check_export.py` verifies this: only the expected files,
+columns and keys, no URLs, image file names, annotator labels or small groups. The app runs it at
+startup and refuses to serve data that fails it.
 
 ```
 app.py              Gradio app (reads data/)
 data/               exported tables (CSV) and meta.json
-evaluation/         evaluation code: groupings, metrics, evidence rules, ranking fairness design
-check_export.py     leak check of data/ and evaluation/, and of the published hash
+evaluation/         evaluation code (groupings, metrics, evidence rules, ranking fairness design)
+                    and the annotation codebook
+docs/datasheet.md   the dataset in aggregate: prompts, counts, perceived attributes and their limits
+check_export.py     leak check of the whole repository, and of the published hash
 ```
 
-## Integrity
+## Release and integrity
 
 The annotation file is private, but its SHA-256 is published with every release (also in
 `data/meta.json`), so anyone given access to the data later can verify that it is the file these
@@ -61,7 +77,35 @@ python app.py          # http://127.0.0.1:7860
 
 ## Submit a model
 
-Submissions are evaluated by the maintainers on the private data, through a manual queue: open a
-discussion in the Space (or an issue in this repository) with the model name, a public checkpoint
-(an `open_clip` architecture and pretrained tag, or a Hugging Face model id), how to compute its
-image and text embeddings if it is not an `open_clip` model, and a link to its paper or model card.
+Submissions are evaluated by the maintainers on the private data, through a manual queue. Open a
+discussion in the Space (or an issue in this repository) with:
+
+- the model name and a public checkpoint: an `open_clip` architecture and pretrained tag, or a
+  Hugging Face model id;
+- how to compute its image and text embeddings, if it is not an `open_clip` model;
+- a link to its paper or model card.
+
+The weights must be in **safetensors** format, or a PyTorch state dict that loads with
+`torch.load(weights_only=True)`. Pickled models and TorchScript archives are refused, because
+loading them can run arbitrary code. The maintainers compute the results privately and add the
+model's aggregate numbers to the leaderboard; nothing else is sent back.
+
+## Related
+
+The dataset was collected and annotated with the InterVisions annotation tool:
+<https://github.com/InterVisions/intervisions_annotation>.
+
+## License
+
+- **Code** (`app.py`, `check_export.py`, `evaluation/*.py`): MIT, see [`LICENSE`](LICENSE).
+- **Data** (the tables in `data/`, `docs/datasheet.md` and `evaluation/codebook.md`):
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## Funding acknowledgement
+
+![Co-funded by the European Union](eu-funded.png)
+
+This work is part of the InterVisions project (101214711 — CERV-2024-CHAR-LITI). Funded by the
+European Union. Views and opinions expressed are however those of the author(s) only and do not
+necessarily reflect those of the European Union or the European Education and Culture Executive
+Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.
