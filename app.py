@@ -5,6 +5,9 @@ data/ (tables of numbers exported from the private benchmark; see check_export.p
 their annotations and the embeddings are not public, and nothing here is per image.
 
 Run:  python app.py [--host 0.0.0.0] [--port 7860]
+
+The published leaderboard is the static page index.html (static/leaderboard.js), which shows the
+same views and numbers without a server; this Gradio version is for running it locally.
 """
 import argparse
 import base64
@@ -24,6 +27,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
+GRADIO_6 = int(gr.__version__.split(".")[0]) >= 6  # also runs on Gradio 5
 sys.path.insert(0, str(ROOT / "evaluation"))
 
 import check_export  # noqa: E402
@@ -632,7 +636,9 @@ HEADER_HELP_JS = """() => {
 
 
 def build_ui():
-    with gr.Blocks(title="InterVisions leaderboard") as demo:
+    # Gradio 6 takes the page's JavaScript in launch(), Gradio 5 in Blocks().
+    with gr.Blocks(title="InterVisions leaderboard",
+                   **({} if GRADIO_6 else {"js": HEADER_HELP_JS})) as demo:
         gr.Markdown(f"## InterVisions: fairness of text→image retrieval\n{len(MODELS)} models · "
                     f"{len(PROMPTS)} prompts · {META['images']:,} annotated images (not public) · "
                     f"release {META['release']}. Aggregate results only; see *About*.")
@@ -738,5 +744,6 @@ if __name__ == "__main__":
     ap.add_argument("--port", type=int, default=None, help="default: 7860 or $GRADIO_SERVER_PORT")
     ap.add_argument("--host", default=None, help="default: 127.0.0.1 or $GRADIO_SERVER_NAME")
     args = ap.parse_args()
-    build_ui().queue(default_concurrency_limit=4).launch(server_name=args.host,
-                                                         server_port=args.port, js=HEADER_HELP_JS)
+    build_ui().queue(default_concurrency_limit=4).launch(
+        server_name=args.host, server_port=args.port,
+        **({"js": HEADER_HELP_JS} if GRADIO_6 else {}))

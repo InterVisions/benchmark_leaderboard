@@ -3,10 +3,8 @@ title: InterVisions Leaderboard
 emoji: ⚖️
 colorFrom: blue
 colorTo: gray
-sdk: gradio
-sdk_version: 6.30.0
-python_version: "3.11"
-app_file: app.py
+sdk: static
+app_file: index.html
 pinned: false
 short_description: Fairness of text-to-image retrieval models
 ---
@@ -42,11 +40,15 @@ the hash of the annotation file.
 Only aggregate numbers, exported from the private benchmark: per model, prompt and group, the
 summaries of the two analyses. No number refers to a single image. Groups with fewer than 10
 images are neither shown nor assessed. `check_export.py` verifies this: only the expected files,
-columns and keys, no URLs, image file names, annotator labels or small groups. The app runs it at
-startup and refuses to serve data that fails it.
+columns and keys, no URLs, image file names, annotator labels or small groups, and a static page
+that loads nothing from other sites. It runs before every release is published, and the Gradio
+version of the app also runs it at startup.
 
 ```
-app.py              Gradio app (reads data/)
+index.html          the leaderboard: a static page (no server; reads data/ in the browser)
+static/             its script (leaderboard.js) and configuration (config.json: group colors,
+                    evidence rules)
+app.py              the same leaderboard as a Gradio app, for running it locally
 data/               exported tables (CSV) and meta.json
 evaluation/         evaluation code (groupings, metrics, evidence rules, ranking fairness design)
                     and the annotation codebook
@@ -70,9 +72,17 @@ ece447fab4a42bc9113c64db01330a1a18eb76fce840c5f6895fb892a48e66aa
 
 ## Run locally
 
+The static page needs only a local web server (browsers do not read `data/` from a file:// page):
+
+```bash
+python -m http.server 8000      # then open http://127.0.0.1:8000/
+```
+
+The Gradio version shows the same views and numbers:
+
 ```bash
 pip install -r requirements.txt
-python app.py          # http://127.0.0.1:7860
+python app.py                   # http://127.0.0.1:7860
 ```
 
 ## Submit a model
@@ -97,7 +107,8 @@ The dataset was collected and annotated with the InterVisions annotation tool:
 
 ## License
 
-- **Code** (`app.py`, `check_export.py`, `evaluation/*.py`): MIT, see [`LICENSE`](LICENSE).
+- **Code** (`index.html`, `static/leaderboard.js`, `app.py`, `check_export.py`, `evaluation/*.py`):
+  MIT, see [`LICENSE`](LICENSE).
 - **Data** (the tables in `data/`, `docs/datasheet.md` and `evaluation/codebook.md`):
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 

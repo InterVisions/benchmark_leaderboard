@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InterVisions leaderboard</title>
+<meta name="description" content="Fairness of text-to-image retrieval models on the InterVisions benchmark: aggregate results only.">
+<!-- Static page: reads data/*.csv, data/meta.json and static/config.json from this repository and
+     loads nothing from other sites. The same views as app.py (the Gradio version). -->
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d1d9e0; --soft: #f6f8fa;
+    --accent: #0072B2; --p01: #D55E00; --p05: #F6C9A6; --mark: #D55E00;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 1320px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.5em; margin: 8px 0 2px; }
+  h3 { margin: 18px 0 6px; }
+  .sub { color: var(--muted); margin: 0 0 12px; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  code { background: var(--soft); padding: 0 4px; border-radius: 4px; font-size: 0.92em;
+         overflow-wrap: anywhere; }
+  label { font-size: 0.86em; color: var(--muted); display: block; margin-bottom: 2px; }
+  select, input[type=range] { font: inherit; }
+  select { padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: #fff;
+           max-width: 100%; }
+  .controls { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: flex-end; margin: 10px 0; }
+  .controls > div { min-width: 180px; }
+  .kval { font-weight: 600; color: var(--fg); }
+  .checks { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .checks label { color: var(--fg); font-size: 0.9em; display: inline-flex; gap: 4px; align-items: center; }
+  nav { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid var(--line); margin: 14px 0 8px; }
+  nav button { font: inherit; background: none; border: 0; border-bottom: 3px solid transparent;
+               padding: 8px 12px; cursor: pointer; color: var(--muted); }
+  nav button[aria-selected=true] { color: var(--fg); border-bottom-color: var(--accent); font-weight: 600; }
+  section[hidden] { display: none; }
+  details { border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; margin: 10px 0; }
+  details > summary { cursor: pointer; font-weight: 600; }
+  .note { font-size: 0.9em; color: var(--muted); }
+  .info { margin: 8px 0; }
+  .legend-p span { padding: 0 4px; }
+  .table-wrap { overflow: auto; max-height: 640px; border: 1px solid var(--line); border-radius: 8px;
+                margin: 8px 0 14px; }
+  .table-wrap.short { max-height: none; }
+  table { border-collapse: collapse; font-size: 13.5px; width: max-content; min-width: 100%; }
+  th, td { padding: 4px 9px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--soft); position: sticky; top: 0; z-index: 1; text-align: center;
+       font-weight: 600; white-space: nowrap; }
+  th[title] { cursor: help; text-decoration: underline dotted var(--muted); text-underline-offset: 3px; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.txt { text-align: left; max-width: 420px; }
+  table.lb thead tr:first-child th:not(:empty) { border-bottom: 2px solid #8c959f; }
+  table.lb thead tr:nth-child(2) th { top: 30px; }
+  .plot { width: 100%; overflow-x: auto; margin: 6px 0 14px; }
+  .plot svg { display: block; max-width: 100%; height: auto; font-family: inherit; }
+  .error { color: #b42318; font-weight: 600; }
+  footer { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; font-size: 0.85em;
+           color: var(--muted); border-top: 1px solid var(--line); margin-top: 24px; padding-top: 12px; }
+  footer img { height: 48px; width: auto; background: #fff; padding: 4px; }
+  footer span { flex: 1; min-width: 240px; }
+  @media (max-width: 640px) { main { padding: 12px; } .controls > div { min-width: 100%; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>InterVisions: fairness of text→image retrieval</h1>
+  <p class="sub" id="summary">Loading…</p>
+
+  <div class="controls">
+    <div><label for="model">Model (for every tab except Leaderboard)</label><select id="model"></select></div>
+  </div>
+
+  <nav role="tablist">
+    <button role="tab" data-tab="lb" aria-selected="true">Leaderboard</button>
+    <button role="tab" data-tab="dip" aria-selected="false">Difference in performance</button>
+    <button role="tab" data-tab="ev" aria-selected="false">Evidence</button>
+    <button role="tab" data-tab="rf" aria-selected="false">Ranking fairness</button>
+    <button role="tab" data-tab="about" aria-selected="false">About and submissions</button>
+  </nav>
+
+  <section id="tab-lb">
+    <div class="md" data-md="LB_WARNING"></div>
+    <div class="controls">
+      <div><label for="lb-config">Configuration</label><select id="lb-config"></select></div>
+      <div><label for="lb-k">k (ranking fairness): <span class="kval" id="lb-k-val"></span></label>
+        <input type="range" id="lb-k"></div>
+    </div>
+    <div class="info" id="lb-info"></div>
+    <p class="note">↓ / ↑: lower / higher is better; <b>bold</b> = best model in that column (not tested).</p>
+    <div id="lb-table"></div>
+    <details><summary>How to read the columns</summary><div class="md" data-md="LB_INFO"></div></details>
+    <details><summary>Per-prompt values behind this table</summary><div id="lb-detail"></div></details>
+    <details id="cmp"><summary>Compare two models (paired test)</summary>
+      <div class="md" data-md="CMP_INFO"></div>
+      <div class="controls">
+        <div><label for="cmp-a">Model A</label><select id="cmp-a"></select></div>
+        <div><label for="cmp-b">Model B</label><select id="cmp-b"></select></div>
+        <div><label for="cmp-k">k (ranking fairness): <span class="kval" id="cmp-k-val"></span></label>
+          <input type="range" id="cmp-k"></div>
+      </div>
+      <div class="md legend-p" data-md="P_LEGEND_PAIRED"></div>
+      <div id="cmp-table"></div>
+    </details>
+  </section>
+
+  <section id="tab-dip" hidden>
+    <details><summary>Analysis</summary><div class="md" data-md="DIP_INFO"></div></details>
+    <div class="controls">
+      <div><label for="dip-prompt">Prompt</label><select id="dip-prompt"></select></div>
+      <div><label for="dip-grouping">Grouping</label><select id="dip-grouping"></select></div>
+      <div><label for="dip-sort">Order groups by (best first)</label><select id="dip-sort"></select></div>
+    </div>
+    <div class="info" id="dip-info"></div>
+    <div class="md legend-p" data-md="DIP_P_LEGEND"></div>
+    <div id="dip-table"></div>
+    <div class="plot" id="dip-plot"></div>
+  </section>
+
+  <section id="tab-ev" hidden>
+    <div class="md" data-md="EVIDENCE"></div>
+    <div class="controls">
+      <div><label>Groupings</label><div class="checks" id="ev-groupings"></div></div>
+      <div><label class="inline"><input type="checkbox" id="ev-uncertain"> Also list uncertain claims</label></div>
+    </div>
+    <div class="info" id="ev-info"></div>
+    <div id="ev-table"></div>
+  </section>
+
+  <section id="tab-rf" hidden>
+    <details><summary>Design and metrics</summary><div class="md" data-md="RF_INFO"></div></details>
+    <div class="controls">
+      <div><label for="rf-prompt" id="rf-prompt-label">Prompt</label><select id="rf-prompt"></select></div>
+      <div><label for="rf-k">k (ranking fairness): <span class="kval" id="rf-k-val"></span></label>
+        <input type="range" id="rf-k"></div>
+    </div>
+    <div class="info" id="rf-info"></div>
+    <div class="md legend-p" data-md="RF_P_LEGEND"></div>
+    <div id="rf-table"></div>
+    <div id="rf-shares"></div>
+    <div class="plot" id="rf-plot"></div>
+    <details><summary>All analysed prompts</summary><div id="rf-all"></div></details>
+  </section>
+
+  <section id="tab-about" hidden>
+    <div class="md" data-md="ABOUT"></div>
+  </section>
+
+  <footer>
+    <img src="eu-funded.png" alt="Co-funded by the European Union">
+    <span>This work is part of the InterVisions project (101214711 — CERV-2024-CHAR-LITI). Funded by
+    the European Union. Views and opinions expressed are however those of the author(s) only and do
+    not necessarily reflect those of the European Union or the European Education and Culture
+    Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for
+    them.</span>
+  </footer>
+</main>
+<script src="static/leaderboard.js"></script>
+</body>
+</html>

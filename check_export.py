@@ -7,8 +7,9 @@ Checks:
   the tracked ones; caches such as __pycache__ are skipped);
 * only the expected files in data/ and evaluation/, in each CSV only the expected columns, and in
   meta.json only the expected keys;
-* the texts (README.md, LICENSE, docs/, evaluation/) have no URL except those of TEXT_ALLOW, and
-  none of the patterns below;
+* the texts (README.md, LICENSE, docs/, evaluation/, and the static page: index.html and static/)
+  have no URL except those of TEXT_ALLOW, so the page loads nothing from other sites, and none of
+  the patterns below;
 * no URL, e-mail address, image file name or annotation-tool image id in any text;
 * no annotator labels;
 * every published group has n >= min_n (meta.json);
@@ -49,10 +50,14 @@ SHA256 = re.compile(r"[0-9a-f]{64}")
 README_BLOCK = re.compile(r"<!-- annotations-sha256 -->\n(.*?)\n<!-- /annotations-sha256 -->", re.S)
 EVAL_CODE = {"dataset.py", "metrics.py", "ranking_fairness.py", "codebook.md"}
 # Every other file the repository may hold (paths relative to its root).
-REPO_FILES = {"README.md", "LICENSE", "app.py", "check_export.py", "requirements.txt",
-              ".gitignore", "eu-funded.png", "docs/datasheet.md"}
+REPO_FILES = {"README.md", "LICENSE", "app.py", "check_export.py", "requirements.txt", "index.html",
+              "static/leaderboard.js", "static/config.json", ".gitignore", "eu-funded.png",
+              "docs/datasheet.md"}
 SKIP_DIRS = {".git", "__pycache__", ".gradio", ".venv", "flagged"}
-TEXTS = ["README.md", "LICENSE", "docs/datasheet.md"]
+# Texts scanned for URLs and the patterns below: what is published as prose, and the static page,
+# which must load nothing from other sites.
+TEXTS = ["README.md", "LICENSE", "docs/datasheet.md", "index.html", "static/leaderboard.js",
+         "static/config.json"]
 # Links the texts may contain, and the emblem's file name.
 TEXT_ALLOW = re.compile(r"https?://(github\.com/InterVisions/|huggingface\.co/|"
                         r"creativecommons\.org/|opensource\.org/|commission\.europa\.eu/|127\.0\.0\.1:)\S*|"
