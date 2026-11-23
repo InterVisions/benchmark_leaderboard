@@ -63,12 +63,19 @@ The annotation file is private, but its SHA-256 is published with every release 
 numbers were computed from.
 
 <!-- annotations-sha256 -->
-Release 2026-11-16: SHA-256 of the private annotation file (`annotations.csv`, 1,203 images) the published numbers were computed from:
+Release 2026-11-23: SHA-256 of the private annotation file (`annotations.csv`, 1,203 images) the published numbers were computed from:
 
 ```
-ece447fab4a42bc9113c64db01330a1a18eb76fce840c5f6895fb892a48e66aa
+3a00c57462df0c2d58d6d201234e995f6308a44d395a6f0266a118afe8c3e54a
 ```
 <!-- /annotations-sha256 -->
+
+Changes between releases:
+
+* **2026-11-23**: the prompt "A person pushing a person in a wheelchair" was reworded to "A person
+  accompanying a person in a wheelchair" (same 109 images and annotations). Only the results of
+  that prompt, and the averages over prompts that include it, changed. Release 2026-11-16 had
+  SHA-256 `ece447fab4a42bc9113c64db01330a1a18eb76fce840c5f6895fb892a48e66aa`.
 
 ## Run locally
 

@@ -1,6 +1,6 @@
 {
- "release": "2026-11-16",
- "annotations_sha256": "ece447fab4a42bc9113c64db01330a1a18eb76fce840c5f6895fb892a48e66aa",
+ "release": "2026-11-23",
+ "annotations_sha256": "3a00c57462df0c2d58d6d201234e995f6308a44d395a6f0266a118afe8c3e54a",
  "images": 1203,
  "min_n": 10,
  "ks": [
@@ -78,6 +78,12 @@
    "ranking_fairness": false
   },
   {
+   "prompt": "A person accompanying a person in a wheelchair",
+   "design": "single",
+   "images": 109,
+   "ranking_fairness": true
+  },
+  {
    "prompt": "A person doing sport in the park",
    "design": "single",
    "images": 102,
@@ -88,12 +94,6 @@
    "design": "single",
    "images": 103,
    "ranking_fairness": false
-  },
-  {
-   "prompt": "A person pushing a person in a wheelchair",
-   "design": "single",
-   "images": 109,
-   "ranking_fairness": true
   },
   {
    "prompt": "A person taking care of a child in a park",

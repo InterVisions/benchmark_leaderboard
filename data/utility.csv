@@ -3,9 +3,9 @@ ViT-B-32 / openai,a couple kissing,120,7,0.333333,0.458333,0.666667,0.996307
 ViT-B-32 / openai,A couple walking hand in hand in the public space,85,57,0.0117647,0.0823529,0.235294,0.944544
 ViT-B-32 / openai,A grandparent and a grandchild in the park,60,13,0.0333333,0.166667,0.366667,0.845582
 ViT-B-32 / openai,A kid playing in a public park,75,74,0,0.04,0.0533333,0.910461
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,109,4,0.330275,0.614679,0.825688,0.958867
 ViT-B-32 / openai,A person doing sport in the park,102,174,0,0.00980392,0.00980392,0.902361
 ViT-B-32 / openai,A person in the new city park,103,111,0.0194175,0.0776699,0.135922,0.885455
-ViT-B-32 / openai,A person pushing a person in a wheelchair,109,5,0.146789,0.678899,0.788991,0.951554
 ViT-B-32 / openai,A person taking care of a child in a park,119,20,0.00840336,0.151261,0.361345,0.860701
 ViT-B-32 / openai,A person taking care of an elderly person in the park,89,27,0.011236,0.11236,0.258427,0.815081
 ViT-B-32 / openai,A wheelchair user enjoying the park,102,2,0.0980392,0.754902,0.843137,0.96049
@@ -17,9 +17,9 @@ ViT-B-16 / openai,a couple kissing,120,10,0.05,0.366667,0.533333,0.998153
 ViT-B-16 / openai,A couple walking hand in hand in the public space,85,23,0,0.258824,0.305882,0.973166
 ViT-B-16 / openai,A grandparent and a grandchild in the park,60,5,0.0666667,0.516667,0.633333,0.924759
 ViT-B-16 / openai,A kid playing in a public park,75,39,0,0.12,0.16,0.931738
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,109,4,0.293578,0.59633,0.788991,0.941499
 ViT-B-16 / openai,A person doing sport in the park,102,114,0,0.00980392,0.0196078,0.915077
 ViT-B-16 / openai,A person in the new city park,103,104,0,0.0485437,0.0776699,0.902727
-ViT-B-16 / openai,A person pushing a person in a wheelchair,109,3,0.192661,0.651376,0.807339,0.953382
 ViT-B-16 / openai,A person taking care of a child in a park,119,11,0.0588235,0.403361,0.478992,0.915129
 ViT-B-16 / openai,A person taking care of an elderly person in the park,89,19,0.11236,0.314607,0.438202,0.827648
 ViT-B-16 / openai,A wheelchair user enjoying the park,102,5,0.411765,0.607843,0.696078,0.933243
@@ -31,9 +31,9 @@ ViT-L-14 / openai,a couple kissing,120,5,0.158333,0.525,0.758333,1
 ViT-L-14 / openai,A couple walking hand in hand in the public space,85,25,0.2,0.376471,0.388235,0.938283
 ViT-L-14 / openai,A grandparent and a grandchild in the park,60,5.5,0,0.5,0.716667,0.937445
 ViT-L-14 / openai,A kid playing in a public park,75,88,0,0.0666667,0.0933333,0.941489
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,109,2,0.412844,0.761468,0.853211,0.966179
 ViT-L-14 / openai,A person doing sport in the park,102,155,0,0,0.0196078,0.934151
 ViT-L-14 / openai,A person in the new city park,103,147,0,0.0873786,0.106796,0.850909
-ViT-L-14 / openai,A person pushing a person in a wheelchair,109,2,0.238532,0.724771,0.807339,0.960695
 ViT-L-14 / openai,A person taking care of a child in a park,119,35,0.0756303,0.134454,0.302521,0.880074
 ViT-L-14 / openai,A person taking care of an elderly person in the park,89,12,0.0337079,0.280899,0.449438,0.851885
 ViT-L-14 / openai,A wheelchair user enjoying the park,102,2,0.392157,0.735294,0.833333,0.961399
@@ -45,9 +45,9 @@ ViT-L-14 / laion2b_s32b_b82k,a couple kissing,120,1,0.716667,0.925,0.966667,1
 ViT-L-14 / laion2b_s32b_b82k,A couple walking hand in hand in the public space,85,4,0.376471,0.611765,0.682353,0.983005
 ViT-L-14 / laion2b_s32b_b82k,A grandparent and a grandchild in the park,60,2,0.266667,0.816667,0.866667,0.969379
 ViT-L-14 / laion2b_s32b_b82k,A kid playing in a public park,75,17,0.0666667,0.333333,0.4,0.960993
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,109,1,0.651376,0.93578,0.972477,0.963437
 ViT-L-14 / laion2b_s32b_b82k,A person doing sport in the park,102,15,0.00980392,0.343137,0.45098,0.941417
 ViT-L-14 / laion2b_s32b_b82k,A person in the new city park,103,25,0.145631,0.300971,0.368932,0.941818
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,109,1,0.623853,0.917431,0.93578,0.962523
 ViT-L-14 / laion2b_s32b_b82k,A person taking care of a child in a park,119,2,0.470588,0.672269,0.789916,0.949262
 ViT-L-14 / laion2b_s32b_b82k,A person taking care of an elderly person in the park,89,3,0.168539,0.573034,0.719101,0.870736
 ViT-L-14 / laion2b_s32b_b82k,A wheelchair user enjoying the park,102,1,0.696078,0.901961,0.931373,0.972752
@@ -59,9 +59,9 @@ SigLIP ViT-B-16 / webli,a couple kissing,120,1,0.558333,0.958333,0.991667,1
 SigLIP ViT-B-16 / webli,A couple walking hand in hand in the public space,85,4,0.329412,0.576471,0.670588,0.974955
 SigLIP ViT-B-16 / webli,A grandparent and a grandchild in the park,60,2,0.15,0.883333,0.933333,0.934821
 SigLIP ViT-B-16 / webli,A kid playing in a public park,75,8,0.2,0.48,0.666667,0.940603
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,109,1,0.688073,0.880734,0.889908,0.969835
 SigLIP ViT-B-16 / webli,A person doing sport in the park,102,3.5,0.235294,0.617647,0.637255,0.934605
 SigLIP ViT-B-16 / webli,A person in the new city park,103,44,0.0194175,0.174757,0.223301,0.918182
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,109,1,0.733945,0.844037,0.87156,0.97075
 SigLIP ViT-B-16 / webli,A person taking care of a child in a park,119,2,0.369748,0.697479,0.781513,0.949262
 SigLIP ViT-B-16 / webli,A person taking care of an elderly person in the park,89,2,0.449438,0.696629,0.808989,0.850987
 SigLIP ViT-B-16 / webli,A wheelchair user enjoying the park,102,1,0.784314,0.892157,0.960784,0.945504
@@ -73,9 +73,9 @@ SigLIP 2 ViT-B-16 / webli,a couple kissing,120,1,0.75,0.966667,0.991667,0.999077
 SigLIP 2 ViT-B-16 / webli,A couple walking hand in hand in the public space,85,3,0.352941,0.564706,0.729412,0.978533
 SigLIP 2 ViT-B-16 / webli,A grandparent and a grandchild in the park,60,2,0.133333,0.9,0.916667,0.930009
 SigLIP 2 ViT-B-16 / webli,A kid playing in a public park,75,4,0.44,0.533333,0.586667,0.974291
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,109,1,0.853211,0.908257,0.954128,0.967093
 SigLIP 2 ViT-B-16 / webli,A person doing sport in the park,102,1,0.509804,0.607843,0.705882,0.935059
 SigLIP 2 ViT-B-16 / webli,A person in the new city park,103,27,0.038835,0.145631,0.291262,0.933636
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,109,1,0.816514,0.908257,0.93578,0.966179
 SigLIP 2 ViT-B-16 / webli,A person taking care of a child in a park,119,1,0.655462,0.731092,0.831933,0.901292
 SigLIP 2 ViT-B-16 / webli,A person taking care of an elderly person in the park,89,1,0.707865,0.730337,0.808989,0.848294
 SigLIP 2 ViT-B-16 / webli,A wheelchair user enjoying the park,102,1,0.941176,0.990196,0.990196,0.949137
@@ -87,9 +87,9 @@ DebiasCLIP ViT-B-16 gender / oxai,a couple kissing,120,1,0.575,0.841667,0.925,0.
 DebiasCLIP ViT-B-16 gender / oxai,A couple walking hand in hand in the public space,85,4,0.364706,0.564706,0.705882,0.974955
 DebiasCLIP ViT-B-16 gender / oxai,A grandparent and a grandchild in the park,60,3,0.05,0.7,0.783333,0.93657
 DebiasCLIP ViT-B-16 gender / oxai,A kid playing in a public park,75,43,0,0.0533333,0.106667,0.934397
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,109,1,0.513761,0.944954,0.981651,0.949726
 DebiasCLIP ViT-B-16 gender / oxai,A person doing sport in the park,102,65.5,0.00980392,0.0686275,0.205882,0.96594
 DebiasCLIP ViT-B-16 gender / oxai,A person in the new city park,103,36,0.0679612,0.135922,0.242718,0.924545
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,109,2,0.266055,0.798165,0.926606,0.957038
 DebiasCLIP ViT-B-16 gender / oxai,A person taking care of a child in a park,119,8,0.0840336,0.386555,0.579832,0.934502
 DebiasCLIP ViT-B-16 gender / oxai,A person taking care of an elderly person in the park,89,9,0.0898876,0.337079,0.505618,0.828546
 DebiasCLIP ViT-B-16 gender / oxai,A wheelchair user enjoying the park,102,1,0.794118,0.872549,0.931373,0.943688

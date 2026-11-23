@@ -1,4 +1,4 @@
-# Datasheet: InterVisions benchmark, release 2026-11-16
+# Datasheet: InterVisions benchmark, release 2026-11-23
 
 Aggregate facts only. The images, their URLs, the per-image annotations and the annotators'
 notes are not released (see the README).
@@ -10,7 +10,7 @@ notes are not released (see the README).
   caregiving, sport, leisure and couples.
 * Each image is annotated for the people it depicts: one person for single-person prompts, two
   for couple prompts.
-* Annotation file: `annotations.csv`, SHA-256 `ece447fab4a42bc9113c64db01330a1a18eb76fce840c5f6895fb892a48e66aa`.
+* Annotation file: `annotations.csv`, SHA-256 `3a00c57462df0c2d58d6d201234e995f6308a44d395a6f0266a118afe8c3e54a`.
 
 | Prompt | Images | Design | Ranking fairness |
 |---|---|---|---|
@@ -18,9 +18,9 @@ notes are not released (see the README).
 | A couple walking hand in hand in the public space | 85 | couple | yes |
 | A grandparent and a grandchild in the park | 60 | single | no |
 | A kid playing in a public park | 75 | single | no |
+| A person accompanying a person in a wheelchair | 109 | single | yes |
 | A person doing sport in the park | 102 | single | no |
 | A person in the new city park | 103 | single | no |
-| A person pushing a person in a wheelchair | 109 | single | yes |
 | A person taking care of a child in a park | 119 | single | yes |
 | A person taking care of an elderly person in the park | 89 | single | yes |
 | A wheelchair user enjoying the park | 102 | single | no |

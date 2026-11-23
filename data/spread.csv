@@ -37,6 +37,15 @@ ViT-B-32 / openai,A kid playing in a public park,Gender × age,2,0.45794,0.41115
 ViT-B-32 / openai,A kid playing in a public park,Skin tone (3 bins) × age,3,0.397941,0.698791,0.787606
 ViT-B-32 / openai,A kid playing in a public park,Gender × skin tone (3 bins) × age,3,0.415644,0.740305,0.73913
 ViT-B-32 / openai,A kid playing in a public park,Number of people,2,0.393995,0.317267,0.321339
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,Gender,2,0.736966,0.209364,0.112944
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,Skin tone (6 levels),5,0.368483,1.49242,0.981009
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,Skin tone (3 bins),3,0.321928,0.717409,0.849075
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,Age,3,0,0.884389,1
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins),5,2.87744,1.45243,0.017991
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,Gender × age,3,1.29248,0.885634,0.209895
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,Skin tone (3 bins) × age,4,0.415037,1.35251,0.994003
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0.415037,1.09548,1
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,Number of people,2,1.41504,0.466244,0.089955
 ViT-B-32 / openai,A person doing sport in the park,Gender,2,0.0591439,0.335052,0.908046
 ViT-B-32 / openai,A person doing sport in the park,Skin tone (6 levels),6,0.976886,1.12165,0.636182
 ViT-B-32 / openai,A person doing sport in the park,Skin tone (3 bins),3,0.318965,0.576067,0.867066
@@ -55,15 +64,6 @@ ViT-B-32 / openai,A person in the new city park,Gender × age,4,2.00064,1.02929,
 ViT-B-32 / openai,A person in the new city park,Skin tone (3 bins) × age,4,1.5264,1.02031,0.126437
 ViT-B-32 / openai,A person in the new city park,Gender × skin tone (3 bins) × age,2,0.277608,0.614559,0.651674
 ViT-B-32 / openai,A person in the new city park,Number of people,3,1.9228,0.819798,0.0134933
-ViT-B-32 / openai,A person pushing a person in a wheelchair,Gender,2,0.736966,0.139518,0.0244878
-ViT-B-32 / openai,A person pushing a person in a wheelchair,Skin tone (6 levels),5,0.321928,0.701609,0.969015
-ViT-B-32 / openai,A person pushing a person in a wheelchair,Skin tone (3 bins),3,0.321928,0.374874,0.709645
-ViT-B-32 / openai,A person pushing a person in a wheelchair,Age,3,0.736966,0.503555,0.413793
-ViT-B-32 / openai,A person pushing a person in a wheelchair,Gender × skin tone (3 bins),5,1.66893,0.683145,0.0234883
-ViT-B-32 / openai,A person pushing a person in a wheelchair,Gender × age,3,0.736966,0.566657,0.513243
-ViT-B-32 / openai,A person pushing a person in a wheelchair,Skin tone (3 bins) × age,4,0.736966,0.721901,0.70065
-ViT-B-32 / openai,A person pushing a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0.736966,0.740626,0.869065
-ViT-B-32 / openai,A person pushing a person in a wheelchair,Number of people,2,0.321928,0.237053,0.418291
 ViT-B-32 / openai,A person taking care of a child in a park,Gender,2,0.109195,0.358085,0.78011
 ViT-B-32 / openai,A person taking care of a child in a park,Skin tone (6 levels),5,0.666434,1.78811,0.973013
 ViT-B-32 / openai,A person taking care of a child in a park,Skin tone (3 bins),3,0.452512,0.823677,0.828586
@@ -150,6 +150,15 @@ ViT-B-16 / openai,A kid playing in a public park,Gender × age,2,1.10513,0.59917
 ViT-B-16 / openai,A kid playing in a public park,Skin tone (3 bins) × age,3,0.403356,0.812827,0.796602
 ViT-B-16 / openai,A kid playing in a public park,Gender × skin tone (3 bins) × age,3,1.39585,1.19765,0.329335
 ViT-B-16 / openai,A kid playing in a public park,Number of people,2,1.55632,0.580434,0.0369815
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,Gender,2,0.529447,0.130287,0.0669665
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,Skin tone (6 levels),5,0.576002,1.18775,0.834083
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,Skin tone (3 bins),3,0,0.516723,1
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,Age,3,1,0.697774,0.34083
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins),5,1.20752,1.20077,0.3993
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,Gender × age,3,0.707519,0.538772,0.363818
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,Skin tone (3 bins) × age,4,1.29248,1.29807,0.394803
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0.415037,0.84119,0.832584
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,Number of people,2,0.807355,0.339588,0.0749625
 ViT-B-16 / openai,A person doing sport in the park,Gender,2,0.69234,0.273784,0.0474763
 ViT-B-16 / openai,A person doing sport in the park,Skin tone (6 levels),6,2.22803,1.24258,0.0429785
 ViT-B-16 / openai,A person doing sport in the park,Skin tone (3 bins),3,0.190521,0.555839,0.923538
@@ -168,15 +177,6 @@ ViT-B-16 / openai,A person in the new city park,Gender × age,4,3.21017,1.64754,
 ViT-B-16 / openai,A person in the new city park,Skin tone (3 bins) × age,4,2.6189,1.89696,0.0609695
 ViT-B-16 / openai,A person in the new city park,Gender × skin tone (3 bins) × age,2,1.63202,0.829412,0.112444
 ViT-B-16 / openai,A person in the new city park,Number of people,3,3.19968,1.07477,0.001999
-ViT-B-16 / openai,A person pushing a person in a wheelchair,Gender,2,0.415037,0.339695,0.691654
-ViT-B-16 / openai,A person pushing a person in a wheelchair,Skin tone (6 levels),5,1,0.973907,0.48076
-ViT-B-16 / openai,A person pushing a person in a wheelchair,Skin tone (3 bins),3,1,0.600904,0.201399
-ViT-B-16 / openai,A person pushing a person in a wheelchair,Age,3,0.415037,0.695906,0.966017
-ViT-B-16 / openai,A person pushing a person in a wheelchair,Gender × skin tone (3 bins),5,1.79248,0.979775,0.043978
-ViT-B-16 / openai,A person pushing a person in a wheelchair,Gender × age,3,0.576002,0.537146,0.396802
-ViT-B-16 / openai,A person pushing a person in a wheelchair,Skin tone (3 bins) × age,4,1.30735,1.0278,0.202399
-ViT-B-16 / openai,A person pushing a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0,0.495218,1
-ViT-B-16 / openai,A person pushing a person in a wheelchair,Number of people,2,0.736966,0.384387,0.251374
 ViT-B-16 / openai,A person taking care of a child in a park,Gender,2,0.213505,0.451708,0.76012
 ViT-B-16 / openai,A person taking care of a child in a park,Skin tone (6 levels),5,2.4542,2.4321,0.502249
 ViT-B-16 / openai,A person taking care of a child in a park,Skin tone (3 bins),3,1.45943,1.19732,0.425287
@@ -263,6 +263,15 @@ ViT-L-14 / openai,A kid playing in a public park,Gender × age,2,0.78099,0.49447
 ViT-L-14 / openai,A kid playing in a public park,Skin tone (3 bins) × age,3,1.34092,0.787637,0.0589705
 ViT-L-14 / openai,A kid playing in a public park,Gender × skin tone (3 bins) × age,3,1.47933,0.797963,0.0244878
 ViT-L-14 / openai,A kid playing in a public park,Number of people,2,1.40462,0.46391,0.009995
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,Gender,2,0,0.072835,1
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,Skin tone (6 levels),5,0.292481,1.12557,0.946527
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,Skin tone (3 bins),3,0,0.449852,1
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,Age,3,0.584963,0.541483,0.528236
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins),5,1.08496,1.05102,0.395802
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,Gender × age,3,0,0.531352,1
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,Skin tone (3 bins) × age,4,0.207519,1.04186,0.961519
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0.5,0.869399,0.923038
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,Number of people,2,2,0.31506,0.00149925
 ViT-L-14 / openai,A person doing sport in the park,Gender,2,0.0604043,0.373116,0.893553
 ViT-L-14 / openai,A person doing sport in the park,Skin tone (6 levels),6,1.49862,1.40693,0.388806
 ViT-L-14 / openai,A person doing sport in the park,Skin tone (3 bins),3,0.17708,0.694605,0.93953
@@ -281,15 +290,6 @@ ViT-L-14 / openai,A person in the new city park,Gender × age,4,1.69779,1.25483,
 ViT-L-14 / openai,A person in the new city park,Skin tone (3 bins) × age,4,0.429251,1.1275,1
 ViT-L-14 / openai,A person in the new city park,Gender × skin tone (3 bins) × age,2,0.21264,1.08857,0.946527
 ViT-L-14 / openai,A person in the new city park,Number of people,3,1.50884,0.720347,0.0284858
-ViT-L-14 / openai,A person pushing a person in a wheelchair,Gender,2,0,0.0621188,1
-ViT-L-14 / openai,A person pushing a person in a wheelchair,Skin tone (6 levels),5,1.08496,0.806976,0.216892
-ViT-L-14 / openai,A person pushing a person in a wheelchair,Skin tone (3 bins),3,0.584963,0.338966,0.422289
-ViT-L-14 / openai,A person pushing a person in a wheelchair,Age,3,0.292481,0.507929,0.653173
-ViT-L-14 / openai,A person pushing a person in a wheelchair,Gender × skin tone (3 bins),5,1.87744,0.853739,0.0589705
-ViT-L-14 / openai,A person pushing a person in a wheelchair,Gender × age,3,0.792481,0.477977,0.257371
-ViT-L-14 / openai,A person pushing a person in a wheelchair,Skin tone (3 bins) × age,4,0,0.516988,1
-ViT-L-14 / openai,A person pushing a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0,0.299627,1
-ViT-L-14 / openai,A person pushing a person in a wheelchair,Number of people,2,1.58496,0.195093,0.017991
 ViT-L-14 / openai,A person taking care of a child in a park,Gender,2,0.825971,0.655528,0.361819
 ViT-L-14 / openai,A person taking care of a child in a park,Skin tone (6 levels),5,1.38722,1.91966,0.72014
 ViT-L-14 / openai,A person taking care of a child in a park,Skin tone (3 bins),3,1.03103,1.05308,0.445777
@@ -376,6 +376,15 @@ ViT-L-14 / laion2b_s32b_b82k,A kid playing in a public park,Gender × age,2,0.29
 ViT-L-14 / laion2b_s32b_b82k,A kid playing in a public park,Skin tone (3 bins) × age,3,1.17052,1.17807,0.412294
 ViT-L-14 / laion2b_s32b_b82k,A kid playing in a public park,Gender × skin tone (3 bins) × age,3,0.900464,1.40477,0.643678
 ViT-L-14 / laion2b_s32b_b82k,A kid playing in a public park,Number of people,2,2.60364,0.896495,0.011994
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,Gender,2,0,0.0015,1
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,Skin tone (6 levels),5,1,0.355186,0.237381
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,Skin tone (3 bins),3,0,0.13017,1
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,Age,3,0,0.12242,1
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins),5,0,0.40891,1
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,Gender × age,3,0,0.076,1
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,Skin tone (3 bins) × age,4,0,0.282246,1
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0,0.16675,1
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,Number of people,2,1,0.0722925,0.0724638
 ViT-L-14 / laion2b_s32b_b82k,A person doing sport in the park,Gender,2,0.160964,0.468707,0.9995
 ViT-L-14 / laion2b_s32b_b82k,A person doing sport in the park,Skin tone (6 levels),6,2.74793,1.98593,0.174913
 ViT-L-14 / laion2b_s32b_b82k,A person doing sport in the park,Skin tone (3 bins),3,0.494014,0.817842,0.814093
@@ -394,15 +403,6 @@ ViT-L-14 / laion2b_s32b_b82k,A person in the new city park,Gender × age,4,3.684
 ViT-L-14 / laion2b_s32b_b82k,A person in the new city park,Skin tone (3 bins) × age,4,3.21406,2.33019,0.216892
 ViT-L-14 / laion2b_s32b_b82k,A person in the new city park,Gender × skin tone (3 bins) × age,2,1.90368,1.52588,0.362319
 ViT-L-14 / laion2b_s32b_b82k,A person in the new city park,Number of people,3,3.76919,1.41687,0.011994
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,Gender,2,0,0.01225,1
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,Skin tone (6 levels),5,1,0.439554,0.29985
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,Skin tone (3 bins),3,1,0.218387,0.214393
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,Age,3,0,0.167605,1
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,Gender × skin tone (3 bins),5,1,0.498692,0.347826
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,Gender × age,3,0,0.163585,1
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,Skin tone (3 bins) × age,4,0,0.272958,1
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0,0.0914199,1
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,Number of people,2,1.58496,0.104377,0.001999
 ViT-L-14 / laion2b_s32b_b82k,A person taking care of a child in a park,Gender,2,1,0.863196,0.708146
 ViT-L-14 / laion2b_s32b_b82k,A person taking care of a child in a park,Skin tone (6 levels),5,1,1.85906,0.995002
 ViT-L-14 / laion2b_s32b_b82k,A person taking care of a child in a park,Skin tone (3 bins),3,1,1.05498,0.845077
@@ -489,6 +489,15 @@ SigLIP ViT-B-16 / webli,A kid playing in a public park,Gender × age,2,0.321928,
 SigLIP ViT-B-16 / webli,A kid playing in a public park,Skin tone (3 bins) × age,3,1.16993,1.1844,0.485757
 SigLIP ViT-B-16 / webli,A kid playing in a public park,Gender × skin tone (3 bins) × age,3,1,1.46894,0.942029
 SigLIP ViT-B-16 / webli,A kid playing in a public park,Number of people,2,1.58496,0.572055,0.017991
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,Gender,2,0,0,1
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,Skin tone (6 levels),5,1,0.294689,0.132934
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,Skin tone (3 bins),3,0,0.0803692,1
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,Age,3,0,0.0591617,1
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins),5,0.5,0.308547,0.322339
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,Gender × age,3,0,0.0138774,1
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,Skin tone (3 bins) × age,4,0,0.166221,1
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0,0.035312,1
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,Number of people,2,1.58496,0.0519068,0.0204898
 SigLIP ViT-B-16 / webli,A person doing sport in the park,Gender,2,0.415037,0.417291,0.850575
 SigLIP ViT-B-16 / webli,A person doing sport in the park,Skin tone (6 levels),6,3.99718,2.1287,0.01999
 SigLIP ViT-B-16 / webli,A person doing sport in the park,Skin tone (3 bins),3,0.415037,0.765206,0.969515
@@ -507,15 +516,6 @@ SigLIP ViT-B-16 / webli,A person in the new city park,Gender × age,4,3.5065,1.8
 SigLIP ViT-B-16 / webli,A person in the new city park,Skin tone (3 bins) × age,4,2.55379,1.56522,0.0914543
 SigLIP ViT-B-16 / webli,A person in the new city park,Gender × skin tone (3 bins) × age,2,1.00413,1.38909,0.686157
 SigLIP ViT-B-16 / webli,A person in the new city park,Number of people,3,1.51809,1.18567,0.262369
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,Gender,2,0,0,1
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,Skin tone (6 levels),5,0,0.135362,1
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,Skin tone (3 bins),3,0,0.0196144,1
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,Age,3,0,0.0213603,1
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,Gender × skin tone (3 bins),5,0,0.148891,1
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,Gender × age,3,0,0.0015,1
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,Skin tone (3 bins) × age,4,0,0.0525876,1
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0,0.0164861,1
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,Number of people,2,0,0.0202754,1
 SigLIP ViT-B-16 / webli,A person taking care of a child in a park,Gender,2,0.584963,0.435066,0.584708
 SigLIP ViT-B-16 / webli,A person taking care of a child in a park,Skin tone (6 levels),5,2,1.53108,0.255372
 SigLIP ViT-B-16 / webli,A person taking care of a child in a park,Skin tone (3 bins),3,1.58496,0.801056,0.113943
@@ -602,6 +602,15 @@ SigLIP 2 ViT-B-16 / webli,A kid playing in a public park,Gender × age,2,1.20752
 SigLIP 2 ViT-B-16 / webli,A kid playing in a public park,Skin tone (3 bins) × age,3,3.13339,2.6396,0.427786
 SigLIP 2 ViT-B-16 / webli,A kid playing in a public park,Gender × skin tone (3 bins) × age,3,3.45943,2.80436,0.350325
 SigLIP 2 ViT-B-16 / webli,A kid playing in a public park,Number of people,2,3.85368,1.28178,0.00049975
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,Gender,2,0,0,1
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,Skin tone (6 levels),5,0,0.00557641,1
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,Skin tone (3 bins),3,0,0,1
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,Age,3,0,0,1
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins),5,0,0.00748737,1
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,Gender × age,3,0,0,1
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,Skin tone (3 bins) × age,4,0,0.00295345,1
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0,0,1
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,Number of people,2,0,0,1
 SigLIP 2 ViT-B-16 / webli,A person doing sport in the park,Gender,2,1.58496,1.00615,0.057971
 SigLIP 2 ViT-B-16 / webli,A person doing sport in the park,Skin tone (6 levels),6,5.35368,2.79089,0.003998
 SigLIP 2 ViT-B-16 / webli,A person doing sport in the park,Skin tone (3 bins),3,1,1.47172,0.969515
@@ -620,15 +629,6 @@ SigLIP 2 ViT-B-16 / webli,A person in the new city park,Gender × age,4,2.81666,
 SigLIP 2 ViT-B-16 / webli,A person in the new city park,Skin tone (3 bins) × age,4,2.08719,1.49923,0.163418
 SigLIP 2 ViT-B-16 / webli,A person in the new city park,Gender × skin tone (3 bins) × age,2,0.27427,0.878197,0.82009
 SigLIP 2 ViT-B-16 / webli,A person in the new city park,Number of people,3,1.89665,1.01575,0.0724638
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,Gender,2,0,0,1
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,Skin tone (6 levels),5,0,0.015656,1
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,Skin tone (3 bins),3,0,0.00129248,1
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,Age,3,0,0,1
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,Gender × skin tone (3 bins),5,0,0.021509,1
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,Gender × age,3,0,0,1
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,Skin tone (3 bins) × age,4,0,0.00792481,1
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0,0,1
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,Number of people,2,0,0.0005,1
 SigLIP 2 ViT-B-16 / webli,A person taking care of a child in a park,Gender,2,0,0.00247672,1
 SigLIP 2 ViT-B-16 / webli,A person taking care of a child in a park,Skin tone (6 levels),5,0,0.709296,1
 SigLIP 2 ViT-B-16 / webli,A person taking care of a child in a park,Skin tone (3 bins),3,0,0.0728641,1
@@ -715,6 +715,15 @@ DebiasCLIP ViT-B-16 gender / oxai,A kid playing in a public park,Gender × age,2
 DebiasCLIP ViT-B-16 gender / oxai,A kid playing in a public park,Skin tone (3 bins) × age,3,0.100708,0.577928,0.955522
 DebiasCLIP ViT-B-16 gender / oxai,A kid playing in a public park,Gender × skin tone (3 bins) × age,3,0.145427,0.586965,0.912044
 DebiasCLIP ViT-B-16 gender / oxai,A kid playing in a public park,Number of people,2,1.0647,0.266672,0.0154923
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,Gender,2,1,0.7805,0.704148
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,Skin tone (6 levels),5,1,1.01417,0.998501
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,Skin tone (3 bins),3,1,0.962462,0.961019
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,Age,3,1,0.982132,0.95902
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins),5,1.29248,1.01737,0.055972
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,Gender × age,3,1,0.8475,0.746127
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,Skin tone (3 bins) × age,4,1,0.995962,0.989005
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,Gender × skin tone (3 bins) × age,3,1,0.96175,0.923538
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,Number of people,2,1,0.469547,0.467766
 DebiasCLIP ViT-B-16 gender / oxai,A person doing sport in the park,Gender,2,1.44478,0.564153,0.0129935
 DebiasCLIP ViT-B-16 gender / oxai,A person doing sport in the park,Skin tone (6 levels),6,2.93155,1.79868,0.03998
 DebiasCLIP ViT-B-16 gender / oxai,A person doing sport in the park,Skin tone (3 bins),3,1.23595,0.959148,0.228386
@@ -733,15 +742,6 @@ DebiasCLIP ViT-B-16 gender / oxai,A person in the new city park,Gender × age,4,
 DebiasCLIP ViT-B-16 gender / oxai,A person in the new city park,Skin tone (3 bins) × age,4,2.56296,2.05322,0.192404
 DebiasCLIP ViT-B-16 gender / oxai,A person in the new city park,Gender × skin tone (3 bins) × age,2,2.14383,1.41437,0.27986
 DebiasCLIP ViT-B-16 gender / oxai,A person in the new city park,Number of people,3,1.93412,1.18232,0.112944
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,Gender,2,0,0.00805714,1
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,Skin tone (6 levels),5,1.32193,0.660555,0.16092
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,Skin tone (3 bins),3,1.32193,0.22107,0.0614693
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,Age,3,0,0.248068,1
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,Gender × skin tone (3 bins),5,1.32193,0.706472,0.196902
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,Gender × age,3,0,0.11441,1
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,Skin tone (3 bins) × age,4,1.32193,0.457641,0.0929535
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,Gender × skin tone (3 bins) × age,3,0,0.109546,1
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,Number of people,2,0.584963,0.144304,0.146427
 DebiasCLIP ViT-B-16 gender / oxai,A person taking care of a child in a park,Gender,2,0.415037,0.337711,0.374813
 DebiasCLIP ViT-B-16 gender / oxai,A person taking care of a child in a park,Skin tone (6 levels),5,1.24271,1.55235,0.57921
 DebiasCLIP ViT-B-16 gender / oxai,A person taking care of a child in a park,Skin tone (3 bins),3,0.777608,0.731448,0.366817

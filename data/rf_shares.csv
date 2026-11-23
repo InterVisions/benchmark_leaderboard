@@ -1119,566 +1119,566 @@ DebiasCLIP ViT-B-16 gender / oxai,A couple walking hand in hand in the public sp
 DebiasCLIP ViT-B-16 gender / oxai,A couple walking hand in hand in the public space,40,Gender × skin composition (2×2),different gender × other,0.25,0,1,0.25
 DebiasCLIP ViT-B-16 gender / oxai,A couple walking hand in hand in the public space,40,Gender × skin composition (2×2),same gender × both FST 1-2,0.25,0,1,0.25
 DebiasCLIP ViT-B-16 gender / oxai,A couple walking hand in hand in the public space,40,Gender × skin composition (2×2),same gender × other,0.25,0,1,0.25
-ViT-B-32 / openai,A person pushing a person in a wheelchair,4,Gender,more maleness,0.5,-0.1815,0.193806,0.3185
-ViT-B-32 / openai,A person pushing a person in a wheelchair,4,Gender,more femaleness,0.5,0.1815,0.193806,0.6815
-ViT-B-32 / openai,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0975,0.447552,0.4025
-ViT-B-32 / openai,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0975,0.447552,0.5975
-ViT-B-32 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.04,0.778222,0.21
-ViT-B-32 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.1415,0.190809,0.1085
-ViT-B-32 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.0575,0.617383,0.1925
-ViT-B-32 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.239,0.027972,0.489
-ViT-B-32 / openai,A person pushing a person in a wheelchair,8,Gender,more maleness,0.5,-0.078,0.404595,0.422
-ViT-B-32 / openai,A person pushing a person in a wheelchair,8,Gender,more femaleness,0.5,0.078,0.404595,0.578
-ViT-B-32 / openai,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.09525,0.282717,0.59525
-ViT-B-32 / openai,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.09525,0.282717,0.40475
-ViT-B-32 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.081,0.370629,0.331
-ViT-B-32 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.159,0.030969,0.091
-ViT-B-32 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.01425,0.84016,0.26425
-ViT-B-32 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.06375,0.405594,0.31375
-ViT-B-32 / openai,A person pushing a person in a wheelchair,12,Gender,more maleness,0.5,-0.13475,0.0599401,0.36525
-ViT-B-32 / openai,A person pushing a person in a wheelchair,12,Gender,more femaleness,0.5,0.13475,0.0599401,0.63475
-ViT-B-32 / openai,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.116333,0.0889111,0.616333
-ViT-B-32 / openai,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.116333,0.0889111,0.383667
-ViT-B-32 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0295,0.653347,0.2795
-ViT-B-32 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.16425,0.002997,0.08575
-ViT-B-32 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0868333,0.136863,0.336833
-ViT-B-32 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0479167,0.396603,0.297917
-ViT-B-32 / openai,A person pushing a person in a wheelchair,16,Gender,more maleness,0.5,-0.152875,0.00599401,0.347125
-ViT-B-32 / openai,A person pushing a person in a wheelchair,16,Gender,more femaleness,0.5,0.152875,0.00599401,0.652875
-ViT-B-32 / openai,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0759375,0.180819,0.575937
-ViT-B-32 / openai,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0759375,0.180819,0.424063
-ViT-B-32 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.014125,0.815185,0.235875
-ViT-B-32 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.13875,0.003996,0.11125
-ViT-B-32 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0900625,0.0589411,0.340062
-ViT-B-32 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0628125,0.170829,0.312812
-ViT-B-32 / openai,A person pushing a person in a wheelchair,20,Gender,more maleness,0.5,-0.1023,0.020979,0.3977
-ViT-B-32 / openai,A person pushing a person in a wheelchair,20,Gender,more femaleness,0.5,0.1023,0.020979,0.6023
-ViT-B-32 / openai,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.02165,0.629371,0.52165
-ViT-B-32 / openai,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.02165,0.629371,0.47835
-ViT-B-32 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0263,0.569431,0.2237
-ViT-B-32 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.076,0.042957,0.174
-ViT-B-32 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.04795,0.230769,0.29795
-ViT-B-32 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.05435,0.140859,0.30435
-ViT-B-32 / openai,A person pushing a person in a wheelchair,24,Gender,more maleness,0.5,-0.0728333,0.0539461,0.427167
-ViT-B-32 / openai,A person pushing a person in a wheelchair,24,Gender,more femaleness,0.5,0.0728333,0.0539461,0.572833
-ViT-B-32 / openai,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.00370833,0.922078,0.496292
-ViT-B-32 / openai,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.00370833,0.922078,0.503708
-ViT-B-32 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0308333,0.413586,0.219167
-ViT-B-32 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.042,0.17982,0.208
-ViT-B-32 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.027125,0.398601,0.277125
-ViT-B-32 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0457083,0.128871,0.295708
-ViT-B-32 / openai,A person pushing a person in a wheelchair,28,Gender,more maleness,0.5,-0.0616429,0.043956,0.438357
-ViT-B-32 / openai,A person pushing a person in a wheelchair,28,Gender,more femaleness,0.5,0.0616429,0.043956,0.561643
-ViT-B-32 / openai,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0155,0.615385,0.5155
-ViT-B-32 / openai,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0155,0.615385,0.4845
-ViT-B-32 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0191786,0.555445,0.230821
-ViT-B-32 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0424643,0.0909091,0.207536
-ViT-B-32 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0346786,0.194805,0.284679
-ViT-B-32 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0269643,0.257742,0.276964
-ViT-B-32 / openai,A person pushing a person in a wheelchair,32,Gender,more maleness,0.5,-0.0473125,0.036963,0.452688
-ViT-B-32 / openai,A person pushing a person in a wheelchair,32,Gender,more femaleness,0.5,0.0473125,0.036963,0.547312
-ViT-B-32 / openai,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0259687,0.251748,0.525969
-ViT-B-32 / openai,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0259687,0.251748,0.474031
-ViT-B-32 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0112812,0.628372,0.238719
-ViT-B-32 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0360312,0.0559441,0.213969
-ViT-B-32 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.03725,0.047952,0.28725
-ViT-B-32 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0100625,0.57043,0.260062
-ViT-B-32 / openai,A person pushing a person in a wheelchair,36,Gender,more maleness,0.5,-0.024,0.0919081,0.476
-ViT-B-32 / openai,A person pushing a person in a wheelchair,36,Gender,more femaleness,0.5,0.024,0.0919081,0.524
-ViT-B-32 / openai,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0095,0.519481,0.5095
-ViT-B-32 / openai,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0095,0.519481,0.4905
-ViT-B-32 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00772222,0.614386,0.242278
-ViT-B-32 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0162778,0.185814,0.233722
-ViT-B-32 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0172222,0.168831,0.267222
-ViT-B-32 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.00677778,0.574426,0.256778
-ViT-B-32 / openai,A person pushing a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
-ViT-B-32 / openai,A person pushing a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
-ViT-B-32 / openai,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
-ViT-B-32 / openai,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
-ViT-B-32 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
-ViT-B-32 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
-ViT-B-32 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
-ViT-B-32 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
-ViT-B-16 / openai,A person pushing a person in a wheelchair,4,Gender,more maleness,0.5,-0.05425,0.685315,0.44575
-ViT-B-16 / openai,A person pushing a person in a wheelchair,4,Gender,more femaleness,0.5,0.05425,0.685315,0.55425
-ViT-B-16 / openai,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0245,0.864136,0.4755
-ViT-B-16 / openai,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0245,0.864136,0.5245
-ViT-B-16 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0215,0.887113,0.2715
-ViT-B-16 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.07575,0.476523,0.17425
-ViT-B-16 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.046,0.679321,0.204
-ViT-B-16 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.10025,0.35964,0.35025
-ViT-B-16 / openai,A person pushing a person in a wheelchair,8,Gender,more maleness,0.5,-0.009625,0.906094,0.490375
-ViT-B-16 / openai,A person pushing a person in a wheelchair,8,Gender,more femaleness,0.5,0.009625,0.906094,0.509625
-ViT-B-16 / openai,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.088375,0.324675,0.588375
-ViT-B-16 / openai,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.088375,0.324675,0.411625
-ViT-B-16 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.076,0.40959,0.326
-ViT-B-16 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.085625,0.255744,0.164375
-ViT-B-16 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.012375,0.876124,0.262375
-ViT-B-16 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.00275,0.972028,0.24725
-ViT-B-16 / openai,A person pushing a person in a wheelchair,12,Gender,more maleness,0.5,-0.05875,0.411588,0.44125
-ViT-B-16 / openai,A person pushing a person in a wheelchair,12,Gender,more femaleness,0.5,0.05875,0.411588,0.55875
-ViT-B-16 / openai,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0213333,0.774226,0.521333
-ViT-B-16 / openai,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0213333,0.774226,0.478667
-ViT-B-16 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00675,0.926074,0.24325
-ViT-B-16 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.052,0.360639,0.198
-ViT-B-16 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0280833,0.628372,0.278083
-ViT-B-16 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0306667,0.568432,0.280667
-ViT-B-16 / openai,A person pushing a person in a wheelchair,16,Gender,more maleness,0.5,-0.070375,0.211788,0.429625
-ViT-B-16 / openai,A person pushing a person in a wheelchair,16,Gender,more femaleness,0.5,0.070375,0.211788,0.570375
-ViT-B-16 / openai,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0045625,0.937063,0.495437
-ViT-B-16 / openai,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0045625,0.937063,0.504563
-ViT-B-16 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0255,0.632368,0.2245
-ViT-B-16 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.044875,0.326673,0.205125
-ViT-B-16 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0209375,0.679321,0.270937
-ViT-B-16 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0494375,0.292707,0.299438
-ViT-B-16 / openai,A person pushing a person in a wheelchair,20,Gender,more maleness,0.5,-0.0603,0.176823,0.4397
-ViT-B-16 / openai,A person pushing a person in a wheelchair,20,Gender,more femaleness,0.5,0.0603,0.176823,0.5603
-ViT-B-16 / openai,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0148,0.747253,0.5148
-ViT-B-16 / openai,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0148,0.747253,0.4852
-ViT-B-16 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00495,0.914086,0.24505
-ViT-B-16 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.05535,0.143856,0.19465
-ViT-B-16 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.01975,0.622378,0.26975
-ViT-B-16 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.04055,0.276723,0.29055
-ViT-B-16 / openai,A person pushing a person in a wheelchair,24,Gender,more maleness,0.5,-0.0474167,0.207792,0.452583
-ViT-B-16 / openai,A person pushing a person in a wheelchair,24,Gender,more femaleness,0.5,0.0474167,0.207792,0.547417
-ViT-B-16 / openai,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.031,0.422577,0.531
-ViT-B-16 / openai,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.031,0.422577,0.469
-ViT-B-16 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0133333,0.729271,0.263333
-ViT-B-16 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.06075,0.0529471,0.18925
-ViT-B-16 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0176667,0.563437,0.267667
-ViT-B-16 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.02975,0.314685,0.27975
-ViT-B-16 / openai,A person pushing a person in a wheelchair,28,Gender,more maleness,0.5,-0.0390357,0.200799,0.460964
-ViT-B-16 / openai,A person pushing a person in a wheelchair,28,Gender,more femaleness,0.5,0.0390357,0.200799,0.539036
-ViT-B-16 / openai,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0294643,0.342657,0.529464
-ViT-B-16 / openai,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0294643,0.342657,0.470536
-ViT-B-16 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.00707143,0.823177,0.257071
-ViT-B-16 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0461071,0.0549451,0.203893
-ViT-B-16 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0223929,0.393606,0.272393
-ViT-B-16 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0166429,0.490509,0.266643
-ViT-B-16 / openai,A person pushing a person in a wheelchair,32,Gender,more maleness,0.5,-0.0374062,0.0869131,0.462594
-ViT-B-16 / openai,A person pushing a person in a wheelchair,32,Gender,more femaleness,0.5,0.0374062,0.0869131,0.537406
-ViT-B-16 / openai,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.026625,0.247752,0.526625
-ViT-B-16 / openai,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.026625,0.247752,0.473375
-ViT-B-16 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0031875,0.895105,0.253188
-ViT-B-16 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0405938,0.031968,0.209406
-ViT-B-16 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0234375,0.231768,0.273438
-ViT-B-16 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0139687,0.454545,0.263969
-ViT-B-16 / openai,A person pushing a person in a wheelchair,36,Gender,more maleness,0.5,-0.0404722,0.00599401,0.459528
-ViT-B-16 / openai,A person pushing a person in a wheelchair,36,Gender,more femaleness,0.5,0.0404722,0.00599401,0.540472
-ViT-B-16 / openai,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0045,0.765235,0.5045
-ViT-B-16 / openai,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0045,0.765235,0.4955
-ViT-B-16 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0155278,0.290709,0.234472
-ViT-B-16 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0249444,0.02997,0.225056
-ViT-B-16 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0200278,0.111888,0.270028
-ViT-B-16 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0204444,0.0859141,0.270444
-ViT-B-16 / openai,A person pushing a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
-ViT-B-16 / openai,A person pushing a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
-ViT-B-16 / openai,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
-ViT-B-16 / openai,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
-ViT-B-16 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
-ViT-B-16 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
-ViT-B-16 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
-ViT-B-16 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
-ViT-L-14 / openai,A person pushing a person in a wheelchair,4,Gender,more maleness,0.5,-0.16925,0.193806,0.33075
-ViT-L-14 / openai,A person pushing a person in a wheelchair,4,Gender,more femaleness,0.5,0.16925,0.193806,0.66925
-ViT-L-14 / openai,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.102,0.45954,0.398
-ViT-L-14 / openai,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.102,0.45954,0.602
-ViT-L-14 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.03375,0.81019,0.21625
-ViT-L-14 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.1355,0.226773,0.1145
-ViT-L-14 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.06825,0.544456,0.18175
-ViT-L-14 / openai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.2375,0.012987,0.4875
-ViT-L-14 / openai,A person pushing a person in a wheelchair,8,Gender,more maleness,0.5,-0.0215,0.826174,0.4785
-ViT-L-14 / openai,A person pushing a person in a wheelchair,8,Gender,more femaleness,0.5,0.0215,0.826174,0.5215
-ViT-L-14 / openai,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.071,0.435564,0.429
-ViT-L-14 / openai,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.071,0.435564,0.571
-ViT-L-14 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.016625,0.866134,0.266625
-ViT-L-14 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.038125,0.649351,0.211875
-ViT-L-14 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.087625,0.270729,0.162375
-ViT-L-14 / openai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.109125,0.118881,0.359125
-ViT-L-14 / openai,A person pushing a person in a wheelchair,12,Gender,more maleness,0.5,-0.00308333,0.976024,0.496917
-ViT-L-14 / openai,A person pushing a person in a wheelchair,12,Gender,more femaleness,0.5,0.00308333,0.976024,0.503083
-ViT-L-14 / openai,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0395,0.559441,0.4605
-ViT-L-14 / openai,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0395,0.559441,0.5395
-ViT-L-14 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00166667,0.987013,0.248333
-ViT-L-14 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.00141667,0.985015,0.248583
-ViT-L-14 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.0378333,0.538462,0.212167
-ViT-L-14 / openai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0409167,0.452547,0.290917
-ViT-L-14 / openai,A person pushing a person in a wheelchair,16,Gender,more maleness,0.5,-0.0525,0.368631,0.4475
-ViT-L-14 / openai,A person pushing a person in a wheelchair,16,Gender,more femaleness,0.5,0.0525,0.368631,0.5525
-ViT-L-14 / openai,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.035625,0.528472,0.535625
-ViT-L-14 / openai,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.035625,0.528472,0.464375
-ViT-L-14 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.011,0.847153,0.239
-ViT-L-14 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0415,0.382617,0.2085
-ViT-L-14 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.046625,0.332667,0.296625
-ViT-L-14 / openai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.005875,0.899101,0.255875
-ViT-L-14 / openai,A person pushing a person in a wheelchair,20,Gender,more maleness,0.5,-0.06055,0.205794,0.43945
-ViT-L-14 / openai,A person pushing a person in a wheelchair,20,Gender,more femaleness,0.5,0.06055,0.205794,0.56055
-ViT-L-14 / openai,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0772,0.0999001,0.5772
-ViT-L-14 / openai,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0772,0.0999001,0.4228
-ViT-L-14 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00285,0.941059,0.24715
-ViT-L-14 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0577,0.12987,0.1923
-ViT-L-14 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.08005,0.044955,0.33005
-ViT-L-14 / openai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0195,0.601399,0.2305
-ViT-L-14 / openai,A person pushing a person in a wheelchair,24,Gender,more maleness,0.5,-0.0352917,0.363636,0.464708
-ViT-L-14 / openai,A person pushing a person in a wheelchair,24,Gender,more femaleness,0.5,0.0352917,0.363636,0.535292
-ViT-L-14 / openai,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0652917,0.0859141,0.565292
-ViT-L-14 / openai,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0652917,0.0859141,0.434708
-ViT-L-14 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0130417,0.736264,0.263042
-ViT-L-14 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0483333,0.120879,0.201667
-ViT-L-14 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.05225,0.110889,0.30225
-ViT-L-14 / openai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0169583,0.557443,0.233042
-ViT-L-14 / openai,A person pushing a person in a wheelchair,28,Gender,more maleness,0.5,-0.0173214,0.571429,0.482679
-ViT-L-14 / openai,A person pushing a person in a wheelchair,28,Gender,more femaleness,0.5,0.0173214,0.571429,0.517321
-ViT-L-14 / openai,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0625357,0.03996,0.562536
-ViT-L-14 / openai,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0625357,0.03996,0.437464
-ViT-L-14 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0289643,0.365634,0.278964
-ViT-L-14 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0462857,0.0679321,0.203714
-ViT-L-14 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0335714,0.200799,0.283571
-ViT-L-14 / openai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.01625,0.494505,0.23375
-ViT-L-14 / openai,A person pushing a person in a wheelchair,32,Gender,more maleness,0.5,-0.007875,0.741259,0.492125
-ViT-L-14 / openai,A person pushing a person in a wheelchair,32,Gender,more femaleness,0.5,0.007875,0.741259,0.507875
-ViT-L-14 / openai,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0506875,0.031968,0.550687
-ViT-L-14 / openai,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0506875,0.031968,0.449313
-ViT-L-14 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0244063,0.300699,0.274406
-ViT-L-14 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0322813,0.0889111,0.217719
-ViT-L-14 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0262812,0.185814,0.276281
-ViT-L-14 / openai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0184063,0.335664,0.231594
-ViT-L-14 / openai,A person pushing a person in a wheelchair,36,Gender,more maleness,0.5,-0.003,0.831169,0.497
-ViT-L-14 / openai,A person pushing a person in a wheelchair,36,Gender,more femaleness,0.5,0.003,0.831169,0.503
-ViT-L-14 / openai,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0100278,0.501499,0.510028
-ViT-L-14 / openai,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0100278,0.501499,0.489972
-ViT-L-14 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.00238889,0.883117,0.252389
-ViT-L-14 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.00538889,0.643357,0.244611
-ViT-L-14 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.00763889,0.556444,0.257639
-ViT-L-14 / openai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.00463889,0.7003,0.245361
-ViT-L-14 / openai,A person pushing a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
-ViT-L-14 / openai,A person pushing a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
-ViT-L-14 / openai,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
-ViT-L-14 / openai,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
-ViT-L-14 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
-ViT-L-14 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
-ViT-L-14 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
-ViT-L-14 / openai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,4,Gender,more maleness,0.5,0.164,0.212787,0.664
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,4,Gender,more femaleness,0.5,-0.164,0.212787,0.336
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.07975,0.558442,0.42025
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.07975,0.558442,0.57975
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.106,0.415584,0.356
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.058,0.584416,0.308
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.18575,0.101898,0.06425
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.02175,0.833167,0.27175
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,8,Gender,more maleness,0.5,0.086625,0.318681,0.586625
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,8,Gender,more femaleness,0.5,-0.086625,0.318681,0.413375
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.000125,1,0.500125
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.000125,1,0.499875
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0565,0.537463,0.3065
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.030125,0.675325,0.280125
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.056375,0.46953,0.193625
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.03025,0.689311,0.21975
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,12,Gender,more maleness,0.5,0.0426667,0.52048,0.542667
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,12,Gender,more femaleness,0.5,-0.0426667,0.52048,0.457333
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0114167,0.849151,0.511417
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0114167,0.849151,0.488583
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.02475,0.732268,0.27475
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0179167,0.766234,0.267917
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.0133333,0.789211,0.236667
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0293333,0.611389,0.220667
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,16,Gender,more maleness,0.5,0.025875,0.645355,0.525875
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,16,Gender,more femaleness,0.5,-0.025875,0.645355,0.474125
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.02325,0.675325,0.52325
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.02325,0.675325,0.47675
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0003125,0.998002,0.250312
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0255625,0.593407,0.275562
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0229375,0.619381,0.272937
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0488125,0.291708,0.201187
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,20,Gender,more maleness,0.5,0.0145,0.745255,0.5145
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,20,Gender,more femaleness,0.5,-0.0145,0.745255,0.4855
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0272,0.562438,0.5272
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0272,0.562438,0.4728
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00685,0.877123,0.24315
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.02135,0.573427,0.27135
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.03405,0.385614,0.28405
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.04855,0.194805,0.20145
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,24,Gender,more maleness,0.5,-0.009875,0.801199,0.490125
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,24,Gender,more femaleness,0.5,0.009875,0.801199,0.509875
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0140417,0.736264,0.514042
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0140417,0.736264,0.485958
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0225417,0.537463,0.227458
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0126667,0.691309,0.262667
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0365833,0.260739,0.286583
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0267083,0.375624,0.223292
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,28,Gender,more maleness,0.5,-0.0226429,0.436563,0.477357
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,28,Gender,more femaleness,0.5,0.0226429,0.436563,0.522643
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0180357,0.554446,0.518036
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0180357,0.554446,0.481964
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0206429,0.487512,0.229357
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.002,0.927073,0.248
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0386786,0.144855,0.288679
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0160357,0.498501,0.233964
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,32,Gender,more maleness,0.5,-0.02975,0.183816,0.47025
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,32,Gender,more femaleness,0.5,0.02975,0.183816,0.52975
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.02375,0.292707,0.52375
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.02375,0.292707,0.47625
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0128437,0.567433,0.237156
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0169063,0.350649,0.233094
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0365937,0.0529471,0.286594
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.00684375,0.705295,0.243156
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,36,Gender,more maleness,0.5,-0.0218889,0.141858,0.478111
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,36,Gender,more femaleness,0.5,0.0218889,0.141858,0.521889
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.00947222,0.51049,0.509472
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.00947222,0.51049,0.490528
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00808333,0.558442,0.241917
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0138056,0.218781,0.236194
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0175556,0.151848,0.267556
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.00433333,0.727273,0.254333
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
-ViT-L-14 / laion2b_s32b_b82k,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender,more maleness,0.5,0.10325,0.431568,0.60325
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender,more femaleness,0.5,-0.10325,0.431568,0.39675
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.1445,0.276723,0.3555
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.1445,0.276723,0.6445
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.064,0.641359,0.186
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.16725,0.127872,0.41725
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.0805,0.48951,0.1695
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.02275,0.836164,0.22725
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender,more maleness,0.5,0.0125,0.891109,0.5125
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender,more femaleness,0.5,-0.0125,0.891109,0.4875
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.021125,0.799201,0.478875
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.021125,0.799201,0.521125
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.052125,0.537463,0.197875
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.064625,0.395604,0.314625
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.031,0.68032,0.281
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0435,0.552448,0.2065
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender,more maleness,0.5,-0.00291667,0.971029,0.497083
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender,more femaleness,0.5,0.00291667,0.971029,0.502917
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.02775,0.68032,0.52775
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.02775,0.68032,0.47225
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0181667,0.771229,0.231833
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.01525,0.794206,0.26525
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0459167,0.423576,0.295917
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.043,0.452547,0.207
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender,more maleness,0.5,-0.0125625,0.829171,0.487438
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender,more femaleness,0.5,0.0125625,0.829171,0.512563
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0480625,0.392607,0.548063
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0480625,0.392607,0.451937
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0105625,0.862138,0.239437
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.002,0.97003,0.248
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.058625,0.207792,0.308625
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0460625,0.311688,0.203937
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender,more maleness,0.5,-0.02495,0.613387,0.47505
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender,more femaleness,0.5,0.02495,0.613387,0.52495
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0438,0.357642,0.5438
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0438,0.357642,0.4562
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.01525,0.748252,0.23475
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0097,0.794206,0.2403
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.05905,0.120879,0.30905
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0341,0.362637,0.2159
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender,more maleness,0.5,-0.021125,0.6004,0.478875
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender,more femaleness,0.5,0.021125,0.6004,0.521125
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0376667,0.312687,0.537667
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0376667,0.312687,0.462333
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0107083,0.789211,0.239292
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0104167,0.744256,0.239583
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.048375,0.107892,0.298375
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.02725,0.363636,0.22275
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender,more maleness,0.5,-0.00971429,0.737263,0.490286
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender,more femaleness,0.5,0.00971429,0.737263,0.509714
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0138929,0.651349,0.513893
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0138929,0.651349,0.486107
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.015,0.609391,0.235
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.00528571,0.822178,0.255286
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0288929,0.241758,0.278893
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0191786,0.426573,0.230821
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender,more maleness,0.5,0.005,0.839161,0.505
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender,more femaleness,0.5,-0.005,0.839161,0.495
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.007875,0.739261,0.492125
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.007875,0.739261,0.507875
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0202813,0.376623,0.229719
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0252812,0.177822,0.275281
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0124063,0.506494,0.262406
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0174063,0.326673,0.232594
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender,more maleness,0.5,0.00430556,0.781219,0.504306
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender,more femaleness,0.5,-0.00430556,0.781219,0.495694
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.00588889,0.708292,0.505889
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.00588889,0.708292,0.494111
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00730556,0.623377,0.242694
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0116111,0.321678,0.261611
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0131944,0.292707,0.263194
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0175,0.131868,0.2325
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
-SigLIP ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender,more maleness,0.5,0.26425,0.04995,0.76425
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender,more femaleness,0.5,-0.26425,0.04995,0.23575
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.05,0.702298,0.45
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.05,0.702298,0.55
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.05375,0.675325,0.30375
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.2105,0.04995,0.4605
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.10375,0.354645,0.14625
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.1605,0.118881,0.0895
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender,more maleness,0.5,0.143875,0.136863,0.643875
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender,more femaleness,0.5,-0.143875,0.136863,0.356125
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.00425,0.967033,0.49575
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.00425,0.967033,0.50425
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.02325,0.794206,0.27325
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.120625,0.105894,0.370625
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.0275,0.738262,0.2225
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.116375,0.101898,0.133625
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender,more maleness,0.5,0.064,0.421578,0.564
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender,more femaleness,0.5,-0.064,0.421578,0.436
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0643333,0.345654,0.435667
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0643333,0.345654,0.564333
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0635833,0.350649,0.186417
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.127583,0.027972,0.377583
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.00075,0.988012,0.24925
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.06325,0.251748,0.18675
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender,more maleness,0.5,0.0325625,0.593407,0.532563
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender,more femaleness,0.5,-0.0325625,0.593407,0.467438
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.061875,0.277722,0.438125
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.061875,0.277722,0.561875
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.080625,0.165834,0.169375
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.113187,0.012987,0.363187
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.01875,0.704296,0.26875
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0513125,0.25974,0.198687
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender,more maleness,0.5,0.02385,0.617383,0.52385
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender,more femaleness,0.5,-0.02385,0.617383,0.47615
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.00815,0.877123,0.49185
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.00815,0.877123,0.50815
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.04785,0.317682,0.20215
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0717,0.043956,0.3217
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0397,0.304695,0.2897
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.06355,0.0929071,0.18645
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender,more maleness,0.5,0.00691667,0.853147,0.506917
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender,more femaleness,0.5,-0.00691667,0.853147,0.493083
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0359167,0.340659,0.535917
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0359167,0.340659,0.464083
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0194167,0.608392,0.230583
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0263333,0.376623,0.276333
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0553333,0.0729271,0.305333
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.06225,0.042957,0.18775
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender,more maleness,0.5,0.00171429,0.95005,0.501714
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender,more femaleness,0.5,-0.00171429,0.95005,0.498286
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0212857,0.485514,0.521286
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0212857,0.485514,0.478714
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0103571,0.715285,0.239643
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0120714,0.614386,0.262071
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0316429,0.203796,0.281643
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0333571,0.175824,0.216643
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender,more maleness,0.5,0.00178125,0.939061,0.501781
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender,more femaleness,0.5,-0.00178125,0.939061,0.498219
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0069375,0.771229,0.493063
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0069375,0.771229,0.506938
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0205625,0.367632,0.229437
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0223437,0.235764,0.272344
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.013625,0.455544,0.263625
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0154063,0.407592,0.234594
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender,more maleness,0.5,0.0116389,0.432567,0.511639
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender,more femaleness,0.5,-0.0116389,0.432567,0.488361
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.00669444,0.665335,0.506694
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.00669444,0.665335,0.493306
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,5.55556e-05,0.997003,0.250056
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0115833,0.352647,0.261583
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.00663889,0.582418,0.256639
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0182778,0.111888,0.231722
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
-SigLIP 2 ViT-B-16 / webli,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,4,Gender,more maleness,0.5,-0.06,0.654346,0.44
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,4,Gender,more femaleness,0.5,0.06,0.654346,0.56
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.054,0.681319,0.446
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.054,0.681319,0.554
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0255,0.879121,0.2755
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0855,0.428571,0.1645
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.0795,0.496503,0.1705
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.1395,0.188811,0.3895
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,8,Gender,more maleness,0.5,-0.048375,0.587413,0.451625
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,8,Gender,more femaleness,0.5,0.048375,0.587413,0.548375
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.05325,0.551449,0.55325
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.05325,0.551449,0.44675
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.056125,0.536464,0.306125
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.1045,0.164835,0.1455
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.002875,0.968032,0.247125
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.05125,0.503497,0.30125
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,12,Gender,more maleness,0.5,-0.0629167,0.364635,0.437083
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,12,Gender,more femaleness,0.5,0.0629167,0.364635,0.562917
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.07675,0.261738,0.57675
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.07675,0.261738,0.42325
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0364167,0.576424,0.286417
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0993333,0.0799201,0.150667
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0403333,0.512488,0.290333
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0225833,0.68032,0.272583
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,16,Gender,more maleness,0.5,-0.04925,0.397602,0.45075
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,16,Gender,more femaleness,0.5,0.04925,0.397602,0.54925
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0678125,0.221778,0.567813
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0678125,0.221778,0.432188
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0279375,0.623377,0.277938
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0771875,0.0849151,0.172813
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.039875,0.406593,0.289875
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.009375,0.831169,0.259375
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,20,Gender,more maleness,0.5,-0.03635,0.428571,0.46365
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,20,Gender,more femaleness,0.5,0.03635,0.428571,0.53635
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.05955,0.201798,0.55955
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.05955,0.201798,0.44045
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0373,0.430569,0.2873
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.07365,0.041958,0.17635
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.02225,0.562438,0.27225
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0141,0.702298,0.2641
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,24,Gender,more maleness,0.5,-0.026,0.495504,0.474
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,24,Gender,more femaleness,0.5,0.026,0.495504,0.526
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.073875,0.047952,0.573875
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.073875,0.047952,0.426125
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.06125,0.10989,0.31125
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.08725,0.004995,0.16275
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.012625,0.69031,0.262625
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.013375,0.682318,0.263375
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,28,Gender,more maleness,0.5,-0.0386429,0.185814,0.461357
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,28,Gender,more femaleness,0.5,0.0386429,0.185814,0.538643
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0708214,0.018981,0.570821
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0708214,0.018981,0.429179
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0456786,0.128871,0.295679
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0843214,0.000999001,0.165679
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0251429,0.314685,0.275143
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0135,0.6004,0.2635
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,32,Gender,more maleness,0.5,-0.033625,0.123876,0.466375
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,32,Gender,more femaleness,0.5,0.033625,0.123876,0.533625
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0325937,0.151848,0.532594
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0325937,0.151848,0.467406
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.0119375,0.596404,0.261937
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0455625,0.00899101,0.204437
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0206562,0.26973,0.270656
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0129687,0.477522,0.262969
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,36,Gender,more maleness,0.5,-0.0156667,0.298701,0.484333
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,36,Gender,more femaleness,0.5,0.0156667,0.298701,0.515667
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.012,0.3996,0.512
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.012,0.3996,0.488
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.00361111,0.825175,0.253611
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0192778,0.0889111,0.230722
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.00838889,0.537463,0.258389
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.00727778,0.546454,0.257278
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
-DebiasCLIP ViT-B-16 gender / oxai,A person pushing a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,4,Gender,more maleness,0.5,-0.21375,0.112887,0.28625
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,4,Gender,more femaleness,0.5,0.21375,0.112887,0.71375
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.06725,0.608392,0.56725
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.06725,0.608392,0.43275
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.089,0.527473,0.161
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.12475,0.252747,0.12525
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.15625,0.152847,0.40625
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0575,0.624376,0.3075
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,8,Gender,more maleness,0.5,-0.17275,0.0659341,0.32725
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,8,Gender,more femaleness,0.5,0.17275,0.0659341,0.67275
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.119125,0.200799,0.619125
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.119125,0.200799,0.380875
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.022625,0.803197,0.227375
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.150125,0.044955,0.099875
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.14175,0.0669331,0.39175
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.031,0.687313,0.281
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,12,Gender,more maleness,0.5,-0.151417,0.033966,0.348583
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,12,Gender,more femaleness,0.5,0.151417,0.033966,0.651417
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0364167,0.606394,0.536417
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0364167,0.606394,0.463583
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0520833,0.472527,0.197917
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0993333,0.0749251,0.150667
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0885,0.146853,0.3385
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0629167,0.286713,0.312917
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,16,Gender,more maleness,0.5,-0.144,0.011988,0.356
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,16,Gender,more femaleness,0.5,0.144,0.011988,0.644
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0205625,0.705295,0.520563
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0205625,0.705295,0.479438
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.054875,0.326673,0.195125
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.089125,0.037962,0.160875
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0754375,0.116883,0.325437
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0685625,0.138861,0.318563
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,20,Gender,more maleness,0.5,-0.0978,0.02997,0.4022
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,20,Gender,more femaleness,0.5,0.0978,0.02997,0.5978
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.02175,0.625375,0.52175
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.02175,0.625375,0.47825
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.03295,0.477522,0.21705
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.06485,0.0839161,0.18515
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0547,0.160839,0.3047
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0431,0.24975,0.2931
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,24,Gender,more maleness,0.5,-0.079125,0.037962,0.420875
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,24,Gender,more femaleness,0.5,0.079125,0.037962,0.579125
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0107917,0.775225,0.510792
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0107917,0.775225,0.489208
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0418333,0.27972,0.208167
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0372917,0.222777,0.212708
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.052625,0.103896,0.302625
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0265,0.398601,0.2765
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,28,Gender,more maleness,0.5,-0.0818214,0.00799201,0.418179
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,28,Gender,more femaleness,0.5,0.0818214,0.00799201,0.581821
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0119643,0.689311,0.488036
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0119643,0.689311,0.511964
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0640714,0.027972,0.185929
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.01775,0.475524,0.23225
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0521071,0.035964,0.302107
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0297143,0.226773,0.279714
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,32,Gender,more maleness,0.5,-0.0610938,0.00899101,0.438906
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,32,Gender,more femaleness,0.5,0.0610937,0.00899101,0.561094
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0216562,0.344655,0.478344
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0216563,0.344655,0.521656
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0562813,0.00699301,0.193719
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0048125,0.802198,0.245188
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.034625,0.0779221,0.284625
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0264687,0.133866,0.276469
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,36,Gender,more maleness,0.5,-0.0258056,0.0639361,0.474194
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,36,Gender,more femaleness,0.5,0.0258056,0.0639361,0.525806
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.00777778,0.597403,0.507778
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.00777778,0.597403,0.492222
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0113889,0.433566,0.238611
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0144167,0.230769,0.235583
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0191667,0.122877,0.269167
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.00663889,0.539461,0.256639
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
+ViT-B-32 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,4,Gender,more maleness,0.5,-0.19075,0.166833,0.30925
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,4,Gender,more femaleness,0.5,0.19075,0.166833,0.69075
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.08,0.56044,0.42
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.08,0.56044,0.58
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.13075,0.298701,0.11925
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.06,0.598402,0.19
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.05075,0.648352,0.30075
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.14,0.190809,0.39
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,8,Gender,more maleness,0.5,-0.125875,0.184815,0.374125
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,8,Gender,more femaleness,0.5,0.125875,0.184815,0.625875
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.006625,0.944056,0.493375
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.006625,0.944056,0.506625
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.097,0.270729,0.153
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.028875,0.701299,0.221125
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.090375,0.248751,0.340375
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0355,0.637363,0.2855
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,12,Gender,more maleness,0.5,-0.109,0.135864,0.391
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,12,Gender,more femaleness,0.5,0.109,0.135864,0.609
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0180833,0.81019,0.481917
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0180833,0.81019,0.518083
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.07275,0.287712,0.17725
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.03625,0.536464,0.21375
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0546667,0.353646,0.304667
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0543333,0.331668,0.304333
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,16,Gender,more maleness,0.5,-0.0794375,0.164835,0.420563
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,16,Gender,more femaleness,0.5,0.0794375,0.164835,0.579438
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0319375,0.576424,0.468062
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0319375,0.576424,0.531937
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0526875,0.342657,0.197313
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.02675,0.575425,0.22325
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.02075,0.658342,0.27075
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0586875,0.191808,0.308688
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,20,Gender,more maleness,0.5,-0.08265,0.0639361,0.41735
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,20,Gender,more femaleness,0.5,0.08265,0.0639361,0.58265
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.01995,0.659341,0.48005
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.01995,0.659341,0.51995
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.05985,0.174825,0.19015
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0228,0.531469,0.2272
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0399,0.305694,0.2899
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.04275,0.238761,0.29275
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,24,Gender,more maleness,0.5,-0.0831667,0.023976,0.416833
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,24,Gender,more femaleness,0.5,0.0831667,0.023976,0.583167
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.004875,0.874126,0.495125
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.004875,0.874126,0.504875
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0635417,0.0739261,0.186458
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.019625,0.5005,0.230375
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0586667,0.0729271,0.308667
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0245,0.408591,0.2745
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,28,Gender,more maleness,0.5,-0.0751071,0.00699301,0.424893
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,28,Gender,more femaleness,0.5,0.0751071,0.00699301,0.575107
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.00939286,0.757243,0.490607
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.00939286,0.757243,0.509393
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0545,0.0589411,0.1955
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0206071,0.383616,0.229393
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0451071,0.0739261,0.295107
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.03,0.21978,0.28
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,32,Gender,more maleness,0.5,-0.0556875,0.00699301,0.444312
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,32,Gender,more femaleness,0.5,0.0556875,0.00699301,0.555688
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0112813,0.597403,0.488719
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0112813,0.597403,0.511281
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0397812,0.0649351,0.210219
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0159063,0.373626,0.234094
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0285,0.135864,0.2785
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0271875,0.124875,0.277187
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,36,Gender,more maleness,0.5,-0.0293333,0.026973,0.470667
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,36,Gender,more femaleness,0.5,0.0293333,0.026973,0.529333
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.00947222,0.504496,0.509472
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.00947222,0.504496,0.490528
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0106944,0.435564,0.239306
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0186389,0.100899,0.231361
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0201667,0.0969031,0.270167
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.00916667,0.430569,0.259167
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
+ViT-B-16 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,4,Gender,more maleness,0.5,-0.03575,0.791209,0.46425
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,4,Gender,more femaleness,0.5,0.03575,0.791209,0.53575
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.08725,0.509491,0.41275
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.08725,0.509491,0.58725
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00175,0.986014,0.24825
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.034,0.739261,0.216
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.0855,0.467532,0.1645
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.12125,0.270729,0.37125
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,8,Gender,more maleness,0.5,-0.055875,0.528472,0.444125
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,8,Gender,more femaleness,0.5,0.055875,0.528472,0.555875
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.03775,0.687313,0.46225
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.03775,0.687313,0.53775
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.007,0.943057,0.243
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.048875,0.532468,0.201125
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.03075,0.697303,0.21925
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.086625,0.254745,0.336625
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,12,Gender,more maleness,0.5,-0.0886667,0.221778,0.411333
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,12,Gender,more femaleness,0.5,0.0886667,0.221778,0.588667
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0015,0.981019,0.4985
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0015,0.981019,0.5015
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0239167,0.734266,0.226083
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.06475,0.278721,0.18525
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0224167,0.721279,0.272417
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.06625,0.245754,0.31625
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,16,Gender,more maleness,0.5,-0.0694375,0.220779,0.430563
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,16,Gender,more femaleness,0.5,0.0694375,0.220779,0.569438
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.027375,0.614386,0.527375
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.027375,0.614386,0.472625
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0181875,0.739261,0.231813
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.05125,0.286713,0.19875
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0455625,0.326673,0.295563
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.023875,0.591409,0.273875
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,20,Gender,more maleness,0.5,-0.08255,0.0819181,0.41745
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,20,Gender,more femaleness,0.5,0.08255,0.0819181,0.58255
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.02675,0.555445,0.52675
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.02675,0.555445,0.47325
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.03455,0.452547,0.21545
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.048,0.230769,0.202
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0613,0.117882,0.3113
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.02125,0.566434,0.27125
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,24,Gender,more maleness,0.5,-0.0880417,0.020979,0.411958
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,24,Gender,more femaleness,0.5,0.0880417,0.020979,0.588042
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0365,0.356643,0.5365
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0365,0.356643,0.4635
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0486667,0.228771,0.201333
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.039375,0.217782,0.210625
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0851667,0.00899101,0.335167
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.002875,0.909091,0.252875
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,28,Gender,more maleness,0.5,-0.0561429,0.0529471,0.443857
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,28,Gender,more femaleness,0.5,0.0561429,0.0529471,0.556143
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0268571,0.387612,0.526857
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0268571,0.387612,0.473143
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0373214,0.246753,0.212679
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0188214,0.464535,0.231179
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0641786,0.010989,0.314179
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.00803571,0.733267,0.241964
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,32,Gender,more maleness,0.5,-0.0292188,0.203796,0.470781
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,32,Gender,more femaleness,0.5,0.0292187,0.203796,0.529219
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0130313,0.552448,0.513031
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0130312,0.552448,0.486969
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0294062,0.208791,0.220594
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0001875,0.991009,0.250188
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0424375,0.027972,0.292438
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0132188,0.491508,0.236781
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,36,Gender,more maleness,0.5,0.000333333,0.981019,0.500333
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,36,Gender,more femaleness,0.5,-0.000333333,0.981019,0.499667
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0191667,0.201798,0.519167
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0191667,0.201798,0.480833
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.00216667,0.893107,0.252167
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.00183333,0.879121,0.248167
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.017,0.175824,0.267
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0173333,0.15984,0.232667
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
+ViT-L-14 / openai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,4,Gender,more maleness,0.5,0.00925,0.938062,0.50925
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,4,Gender,more femaleness,0.5,-0.00925,0.938062,0.49075
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0185,0.899101,0.4815
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0185,0.899101,0.5185
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.006,0.963037,0.256
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.00325,0.973027,0.25325
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.0245,0.83017,0.2255
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.01525,0.9001,0.26525
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,8,Gender,more maleness,0.5,0.016125,0.868132,0.516125
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,8,Gender,more femaleness,0.5,-0.016125,0.868132,0.483875
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.030875,0.714286,0.530875
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.030875,0.714286,0.469125
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.013125,0.886114,0.263125
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.003,0.968032,0.253
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.01775,0.817183,0.26775
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.033875,0.652348,0.216125
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,12,Gender,more maleness,0.5,0.0241667,0.75025,0.524167
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,12,Gender,more femaleness,0.5,-0.0241667,0.75025,0.475833
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0205833,0.753247,0.520583
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0205833,0.753247,0.479417
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00408333,0.96004,0.245917
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.02825,0.614386,0.27825
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0246667,0.696304,0.274667
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0488333,0.394605,0.201167
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,16,Gender,more maleness,0.5,0.029875,0.595405,0.529875
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,16,Gender,more femaleness,0.5,-0.029875,0.595405,0.470125
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.025,0.632368,0.525
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.025,0.632368,0.475
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.010875,0.854146,0.239125
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.04075,0.364635,0.29075
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.035875,0.441558,0.285875
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.06575,0.14985,0.18425
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,20,Gender,more maleness,0.5,-0.00575,0.893107,0.49425
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,20,Gender,more femaleness,0.5,0.00575,0.893107,0.50575
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.033,0.463536,0.533
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.033,0.463536,0.467
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.03565,0.422577,0.21435
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0299,0.418581,0.2799
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.06865,0.0849151,0.31865
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0629,0.0939061,0.1871
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,24,Gender,more maleness,0.5,-0.0352083,0.335664,0.464792
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,24,Gender,more femaleness,0.5,0.0352083,0.335664,0.535208
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.00875,0.822178,0.50875
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.00875,0.822178,0.49125
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0645417,0.0729271,0.185458
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0293333,0.335664,0.279333
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0732917,0.017982,0.323292
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0380833,0.205794,0.211917
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,28,Gender,more maleness,0.5,-0.0565,0.0539461,0.4435
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,28,Gender,more femaleness,0.5,0.0565,0.0539461,0.5565
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.00160714,0.965035,0.498393
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.00160714,0.965035,0.501607
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0648571,0.018981,0.185143
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.00835714,0.742258,0.258357
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.06325,0.015984,0.31325
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.00675,0.765235,0.24325
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,32,Gender,more maleness,0.5,-0.037375,0.0919081,0.462625
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,32,Gender,more femaleness,0.5,0.037375,0.0919081,0.537375
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0154375,0.51049,0.515437
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0154375,0.51049,0.484563
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.02975,0.167832,0.22025
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.007625,0.686314,0.242375
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0451875,0.016983,0.295187
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0078125,0.673327,0.242188
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,36,Gender,more maleness,0.5,-0.017,0.243756,0.483
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,36,Gender,more femaleness,0.5,0.017,0.243756,0.517
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.00994444,0.5005,0.509944
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.00994444,0.5005,0.490056
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.007,0.611389,0.243
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.01,0.382617,0.24
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0169444,0.17982,0.266944
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,5.55556e-05,0.999001,0.250056
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
+ViT-L-14 / laion2b_s32b_b82k,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender,more maleness,0.5,0.029,0.844156,0.529
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender,more femaleness,0.5,-0.029,0.844156,0.471
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.02625,0.834166,0.47375
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.02625,0.834166,0.52625
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.06625,0.605395,0.18375
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.09525,0.382617,0.34525
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.04,0.712288,0.29
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.069,0.538462,0.181
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender,more maleness,0.5,0.008375,0.931069,0.508375
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender,more femaleness,0.5,-0.008375,0.931069,0.491625
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.05575,0.498501,0.55575
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.05575,0.498501,0.44425
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.035375,0.676324,0.214625
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.04375,0.54046,0.29375
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.091125,0.233766,0.341125
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0995,0.181818,0.1505
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender,more maleness,0.5,-0.03,0.691309,0.47
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender,more femaleness,0.5,0.03,0.691309,0.53
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0475,0.476523,0.5475
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0475,0.476523,0.4525
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0350833,0.593407,0.214917
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.00508333,0.929071,0.255083
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0825833,0.155844,0.332583
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0525833,0.352647,0.197417
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender,more maleness,0.5,-0.0300625,0.61039,0.469938
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender,more femaleness,0.5,0.0300625,0.61039,0.530062
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0424375,0.467532,0.542438
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0424375,0.467532,0.457562
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0353125,0.518482,0.214688
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.00525,0.895105,0.25525
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.07775,0.101898,0.32775
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0476875,0.324675,0.202313
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender,more maleness,0.5,-0.02345,0.633367,0.47655
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender,more femaleness,0.5,0.02345,0.633367,0.52345
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.04855,0.293706,0.54855
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.04855,0.293706,0.45145
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.02885,0.546454,0.22115
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0054,0.89011,0.2554
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0774,0.046953,0.3274
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.05395,0.144855,0.19605
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender,more maleness,0.5,-0.013,0.737263,0.487
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender,more femaleness,0.5,0.013,0.737263,0.513
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0395,0.291708,0.5395
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0395,0.291708,0.4605
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0125,0.747253,0.2375
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0005,0.988012,0.2495
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.052,0.0959041,0.302
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.039,0.197802,0.211
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender,more maleness,0.5,-0.0127143,0.671329,0.487286
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender,more femaleness,0.5,0.0127143,0.671329,0.512714
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0151429,0.62038,0.515143
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0151429,0.62038,0.484857
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0171429,0.567433,0.232857
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.00442857,0.857143,0.254429
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0322857,0.195804,0.282286
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0195714,0.421578,0.230429
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender,more maleness,0.5,-0.00440625,0.85015,0.495594
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender,more femaleness,0.5,0.00440625,0.85015,0.504406
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.00121875,0.965035,0.498781
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.00121875,0.965035,0.501219
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0214375,0.341658,0.228563
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0170312,0.363636,0.267031
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0202188,0.276723,0.270219
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0158125,0.388611,0.234187
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender,more maleness,0.5,-0.00594444,0.703297,0.494056
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender,more femaleness,0.5,0.00594444,0.703297,0.505944
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.001,0.953047,0.499
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.001,0.953047,0.501
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0155556,0.294705,0.234444
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.00961111,0.408591,0.259611
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0145556,0.233766,0.264556
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.00861111,0.456543,0.241389
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
+SigLIP ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender,more maleness,0.5,0.15475,0.262737,0.65475
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender,more femaleness,0.5,-0.15475,0.262737,0.34525
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0065,0.962038,0.4935
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0065,0.962038,0.5065
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00425,0.974026,0.24575
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.159,0.143856,0.409
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.00225,0.987013,0.24775
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.1525,0.157842,0.0975
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender,more maleness,0.5,0.085625,0.391608,0.585625
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender,more femaleness,0.5,-0.085625,0.391608,0.414375
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.052375,0.551449,0.552375
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.052375,0.551449,0.447625
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.01075,0.916084,0.26075
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.074875,0.314685,0.324875
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.041625,0.598402,0.291625
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.12725,0.0729271,0.12275
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender,more maleness,0.5,0.00916667,0.901099,0.509167
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender,more femaleness,0.5,-0.00916667,0.901099,0.490833
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0203333,0.763237,0.520333
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0203333,0.763237,0.479667
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0511667,0.444555,0.198833
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0603333,0.310689,0.310333
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0715,0.24975,0.3215
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0806667,0.145854,0.169333
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender,more maleness,0.5,0.017125,0.78022,0.517125
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender,more femaleness,0.5,-0.017125,0.78022,0.482875
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.005875,0.926074,0.505875
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.005875,0.926074,0.494125
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0628125,0.283716,0.187188
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0799375,0.0849151,0.329937
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0686875,0.161838,0.318688
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0858125,0.0549451,0.164187
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender,more maleness,0.5,0.00315,0.937063,0.50315
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender,more femaleness,0.5,-0.00315,0.937063,0.49685
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.00355,0.927073,0.50355
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.00355,0.927073,0.49645
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.06245,0.173826,0.18755
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0656,0.0729271,0.3156
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.066,0.0829171,0.316
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.06915,0.0589411,0.18085
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender,more maleness,0.5,0.00666667,0.868132,0.506667
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender,more femaleness,0.5,-0.00666667,0.868132,0.493333
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.023625,0.541459,0.523625
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.023625,0.541459,0.476375
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.028,0.478521,0.222
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0346667,0.238761,0.284667
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.051625,0.0919081,0.301625
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0582917,0.0539461,0.191708
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender,more maleness,0.5,0.00453571,0.88012,0.504536
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender,more femaleness,0.5,-0.00453571,0.88012,0.495464
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0143571,0.657343,0.514357
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0143571,0.657343,0.485643
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0185357,0.526474,0.231464
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0230714,0.341658,0.273071
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0328929,0.181818,0.282893
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0374286,0.116883,0.212571
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender,more maleness,0.5,-0.00140625,0.946054,0.498594
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender,more femaleness,0.5,0.00140625,0.946054,0.501406
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.0031875,0.898102,0.496812
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.0031875,0.898102,0.503188
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0194063,0.398601,0.230594
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.018,0.343656,0.268
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0162188,0.381618,0.266219
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0148125,0.447552,0.235187
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender,more maleness,0.5,0.00597222,0.7003,0.505972
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender,more femaleness,0.5,-0.00597222,0.7003,0.494028
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0065,0.654346,0.5065
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0065,0.654346,0.4935
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.00408333,0.794206,0.245917
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0.0100556,0.420579,0.260056
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0105833,0.388611,0.260583
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,-0.0165556,0.160839,0.233444
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
+SigLIP 2 ViT-B-16 / webli,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,4,Gender,more maleness,0.5,-0.1355,0.340659,0.3645
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,4,Gender,more femaleness,0.5,0.1355,0.340659,0.6355
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,-0.1245,0.366633,0.3755
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,4,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0.1245,0.366633,0.6245
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.095,0.504496,0.155
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0405,0.734266,0.2095
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.0295,0.806194,0.2205
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,4,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.165,0.115884,0.415
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,8,Gender,more maleness,0.5,-0.10625,0.253746,0.39375
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,8,Gender,more femaleness,0.5,0.10625,0.253746,0.60625
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.033125,0.742258,0.533125
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,8,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.033125,0.742258,0.466875
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.02725,0.771229,0.22275
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.079,0.312687,0.171
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.060375,0.45954,0.310375
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,8,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.045875,0.567433,0.295875
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,12,Gender,more maleness,0.5,-0.125333,0.0769231,0.374667
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,12,Gender,more femaleness,0.5,0.125333,0.0769231,0.625333
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0576667,0.418581,0.557667
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,12,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0576667,0.418581,0.442333
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.03175,0.634366,0.21825
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0935833,0.111888,0.156417
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0894167,0.12987,0.339417
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,12,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0359167,0.492507,0.285917
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,16,Gender,more maleness,0.5,-0.121375,0.037962,0.378625
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,16,Gender,more femaleness,0.5,0.121375,0.037962,0.621375
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.055625,0.316683,0.555625
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,16,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.055625,0.316683,0.444375
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0324375,0.572428,0.217562
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0889375,0.0619381,0.161062
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0880625,0.0649351,0.338062
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,16,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0333125,0.452547,0.283313
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,20,Gender,more maleness,0.5,-0.0995,0.035964,0.4005
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,20,Gender,more femaleness,0.5,0.0995,0.035964,0.5995
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.02985,0.498501,0.52985
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,20,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.02985,0.498501,0.47015
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.03785,0.402597,0.21215
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.06165,0.10989,0.18835
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0677,0.0829171,0.3177
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,20,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0318,0.382617,0.2818
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,24,Gender,more maleness,0.5,-0.0869167,0.021978,0.413083
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,24,Gender,more femaleness,0.5,0.0869167,0.021978,0.586917
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0111667,0.751249,0.511167
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,24,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0111667,0.751249,0.488833
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0344583,0.366633,0.215542
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0524583,0.0899101,0.197542
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.045625,0.146853,0.295625
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,24,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0412917,0.174825,0.291292
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,28,Gender,more maleness,0.5,-0.06825,0.022977,0.43175
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,28,Gender,more femaleness,0.5,0.06825,0.022977,0.56825
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.01175,0.689311,0.51175
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,28,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.01175,0.689311,0.48825
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0109643,0.722278,0.239036
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0572857,0.013986,0.192714
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.0227143,0.35964,0.272714
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,28,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0455357,0.0609391,0.295536
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,32,Gender,more maleness,0.5,-0.0325937,0.15984,0.467406
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,32,Gender,more femaleness,0.5,0.0325937,0.15984,0.532594
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.0115312,0.635365,0.511531
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,32,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.0115312,0.635365,0.488469
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 1,0.25,0.014125,0.529471,0.264125
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0467188,0.010989,0.203281
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 1,0.25,-0.00259375,0.9001,0.247406
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,32,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0351875,0.0539461,0.285187
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,36,Gender,more maleness,0.5,-0.0138889,0.358641,0.486111
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,36,Gender,more femaleness,0.5,0.0138889,0.358641,0.513889
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.00111111,0.935065,0.501111
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,36,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,-0.00111111,0.935065,0.498889
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 1,0.25,-0.0015,0.934066,0.2485
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,-0.0123889,0.316683,0.237611
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0.00261111,0.851149,0.252611
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,36,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0.0112778,0.325674,0.261278
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,40,Gender,more maleness,0.5,0,1,0.5
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,40,Gender,more femaleness,0.5,0,1,0.5
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 1,0.5,0,1,0.5
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,40,Skin tone (FST 1 vs 2-6),FST 2-6,0.5,0,1,0.5
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 1,0.25,0,1,0.25
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more maleness × FST 2-6,0.25,0,1,0.25
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 1,0.25,0,1,0.25
+DebiasCLIP ViT-B-16 gender / oxai,A person accompanying a person in a wheelchair,40,Gender × skin tone (2×2),more femaleness × FST 2-6,0.25,0,1,0.25
 ViT-B-32 / openai,A person taking care of a child in a park,4,Gender,more maleness,0.5,-0.10725,0.458541,0.39275
 ViT-B-32 / openai,A person taking care of a child in a park,4,Gender,more femaleness,0.5,0.10725,0.458541,0.60725
 ViT-B-32 / openai,A person taking care of a child in a park,4,Skin tone (FST 1 vs 2-6),FST 1,0.5,0.20225,0.15984,0.70225
